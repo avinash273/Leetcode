@@ -15,5 +15,9 @@ public class Helper {
         //Longest substring
         longestSubstring longestSubstring = new longestSubstring();
         longestSubstring.lengthOfLongestSubstring("pwwkew");
+
+        //anagram
+        anagram anagram = new anagram();
+        anagram.groupAnagrams(new String[]{"eat", "tea", "tan", "ate", "nat", "bat"});
     }
 }
