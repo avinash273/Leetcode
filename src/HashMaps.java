@@ -1,8 +1,8 @@
 import java.util.HashMap;
 
 public class HashMaps {
-    java.util.HashMap wordCount(String sentence) {
-        java.util.HashMap<String, Integer> wordCounter = new java.util.HashMap<String, Integer>();
+    HashMap wordCount(String sentence) {
+        HashMap<String, Integer> wordCounter = new HashMap<String, Integer>();
         String[] tokens = sentence.split(" ");
 
         for (String token : tokens) {

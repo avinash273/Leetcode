@@ -11,5 +11,9 @@ public class Helper {
         String sentence = "Hi I am avinash. What is your name again. I said I am avinash shanker. Sorry your name once more, its avinash. Okay!";
         HashMaps HashMaps = new HashMaps();
         System.out.println(HashMaps.wordCount(sentence));
+
+        //Longest substring
+        longestSubstring longestSubstring = new longestSubstring();
+        longestSubstring.lengthOfLongestSubstring("pwwkew");
     }
 }
