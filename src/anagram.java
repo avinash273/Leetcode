@@ -17,7 +17,7 @@ public class anagram {
             ans.get(key).add(s);
         }
         System.out.println("ans:" + ans);
-        System.out.println("new ArrayList(ans.values())" + new ArrayList(ans.values()));
+        System.out.println("new ArrayListDo(ans.values())" + new ArrayList(ans.values()));
         return new ArrayList(ans.values());
     }
 }
