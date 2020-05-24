@@ -16,5 +16,10 @@ public class main {
         HashSetDo HashSetDo = new HashSetDo();
         System.out.println("\nHashSet:");
         HashSetDo.implementHashSet();
+
+        //TreeSet implementation
+        TreeSetDo TreeSetDo = new TreeSetDo();
+        System.out.println("\nTreeSet:");
+        TreeSetDo.implementTreeSet();
     }
 }
