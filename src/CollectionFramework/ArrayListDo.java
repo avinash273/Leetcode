@@ -3,12 +3,13 @@ package CollectionFramework;
 import java.util.*;
 
 public class ArrayListDo {
-    void implementArrayList() {
+    ArrayList implementArrayList() {
         ArrayList<String> list = new ArrayList<String>();
         ArrayList<String> list2 = new ArrayList<String>();
         list.add("avi");
         list.add("anki");
         list.add(0, "bob");
+        list2.add("akash");
         list2.add("akash");
 
         //Few more, but implemented
@@ -17,7 +18,7 @@ public class ArrayListDo {
 //        list.clear();
 
         //Traversing using while
-        Iterator itr = list.iterator();
+        Iterator<String> itr = list.iterator();
         while (itr.hasNext()) {
             System.out.println("while:" + itr.next());
         }
@@ -75,7 +76,7 @@ public class ArrayListDo {
             Student st = students.get(i);
             System.out.println(st.rollNo + " " + st.age);
         }
-
+        return list;
     }
 }
 
