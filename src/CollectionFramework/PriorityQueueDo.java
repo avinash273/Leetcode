@@ -8,8 +8,7 @@ public class PriorityQueueDo {
         queue.add("b");
         queue.add("a");
         queue.add("d");
-        queue.add("c");
-
+        queue.add("c");;
         System.out.println("Head: "+queue.peek());
         Iterator itr = queue.iterator();
         while(itr.hasNext())
