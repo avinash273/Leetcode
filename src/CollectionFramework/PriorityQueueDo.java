@@ -15,6 +15,6 @@ public class PriorityQueueDo {
         Iterator itr = queue.iterator();
 
         while(itr.hasNext())
-            System.out.println(itr.next);
+            System.out.println(itr.next());
     }
 }
