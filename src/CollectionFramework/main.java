@@ -24,5 +24,7 @@ public class main {
         TreeSetDo.implementBook();
 
         //Priority Queue
+        PriorityQueueDo PriorityQueueDo = new PriorityQueueDo();
+        PriorityQueueDo.implementPriorityQueue();
     }
 }

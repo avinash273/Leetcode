@@ -13,5 +13,10 @@ public class PriorityQueueDo {
         Iterator itr = queue.iterator();
         while(itr.hasNext())
             System.out.println(itr.next());
+
+        //same, they both remove from the head
+        queue.remove();
+        queue.poll();
+        System.out.println(queue);
     }
 }
