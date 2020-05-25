@@ -21,5 +21,8 @@ public class main {
         TreeSetDo TreeSetDo = new TreeSetDo();
         System.out.println("\nTreeSet:");
         TreeSetDo.implementTreeSet();
+        TreeSetDo.implementBook();
+
+        //Priority Queue
     }
 }
