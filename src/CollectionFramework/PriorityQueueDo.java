@@ -13,7 +13,6 @@ public class PriorityQueueDo {
         System.out.println("Head: "+queue.peek());
 
         Iterator itr = queue.iterator();
-
         while(itr.hasNext())
             System.out.println(itr.next());
     }
