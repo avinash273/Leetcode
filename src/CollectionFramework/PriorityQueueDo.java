@@ -5,7 +5,6 @@ import java.util.*;
 public class PriorityQueueDo {
     void implementPriorityQueue() {
         PriorityQueue<String> queue = new PriorityQueue<String>();
-
         queue.add("b");
         queue.add("a");
         queue.add("d");
@@ -19,6 +18,22 @@ public class PriorityQueueDo {
         queue.remove();
         queue.poll();
         System.out.println(queue);
+
+
+        /**
+         * trying Deque here only
+         * It enable you to add both at beginning and end
+         * It basically a double ended linked list
+         */
+        Deque<String> deque = new ArrayDeque<String>();
+        deque.add("a");
+        deque.addLast("c");
+        deque.addFirst("b");
+
+        deque.remove("a");
+        deque.removeFirst();
+        deque.removeLast();
+
 
         //Now implementing book class
         class Book implements Comparable<Book> {
