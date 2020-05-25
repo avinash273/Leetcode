@@ -32,5 +32,10 @@ public class main {
         HashMapDo HashMapDo = new HashMapDo();
         System.out.println("\nHashMap:");
         HashMapDo.implementHashMap();
+
+        //Some important collections class
+        ImpCollectionsClasses ImpCollectionsClasses = new ImpCollectionsClasses();
+        System.out.println("\nImp Collections Classes: ");
+        ImpCollectionsClasses.implementSomeClasses();
     }
 }
