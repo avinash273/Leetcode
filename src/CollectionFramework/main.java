@@ -25,6 +25,12 @@ public class main {
 
         //Priority Queue
         PriorityQueueDo PriorityQueueDo = new PriorityQueueDo();
+        System.out.println("\nPriority Queue:");
         PriorityQueueDo.implementPriorityQueue();
+
+        //HashMap implementation
+        HashMapDo HashMapDo = new HashMapDo();
+        System.out.println("\nHashMap:");
+        HashMapDo.implementHashMap();
     }
 }
