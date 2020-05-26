@@ -26,5 +26,9 @@ public class BasicMain {
         //string operations
         stringOperations stringOperations = new stringOperations();
         stringOperations.implementStringOperations();
+
+        //error handling
+        ExceptionHandling ExceptionHandling = new ExceptionHandling();
+        ExceptionHandling.implementError();
     }
 }
