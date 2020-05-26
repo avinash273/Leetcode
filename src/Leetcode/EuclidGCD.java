@@ -1,3 +1,5 @@
+package Leetcode;
+
 public class EuclidGCD {
 
     int getGCD(int a, int b) {

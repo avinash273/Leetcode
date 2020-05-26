@@ -1,3 +1,5 @@
+package Leetcode;
+
 public class BinarySearch {
     int binarySearch(int target, int[] array){
 

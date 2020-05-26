@@ -14,7 +14,7 @@ public class HashMapDo {
         map1.put(105, "chan");
         map1.put(104, "alice");
 
-        //Combine 2 HashMaps
+        //Combine 2 Leetcode.HashMaps
         map.putAll(map1);
 
         System.out.println("map.keySet(): " + map.keySet());

@@ -1,7 +1,9 @@
+package Leetcode;
+
 public class Helper {
 
     public static void main(String[] args) {
-        System.out.println("Helper function to call all functionalities");
+        System.out.println("Leetcode.Helper function to call all functionalities");
 
         //To get GCD
         EuclidGCD EuclidGCD = new EuclidGCD();
@@ -16,7 +18,7 @@ public class Helper {
         longestSubstring longestSubstring = new longestSubstring();
         longestSubstring.lengthOfLongestSubstring("pwwkew");
 
-        //anagram
+        //Leetcode.anagram
         anagram anagram = new anagram();
         anagram.groupAnagrams(new String[]{"eat", "tea", "tan", "ate", "nat", "bat"});
     }

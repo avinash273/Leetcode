@@ -7,9 +7,9 @@ public class main {
         System.out.println("\nArrayList:");
         ArrayListDo.implementArrayList();
 
-        //LinkedList implementation
+        //Leetcode.LinkedList implementation
         LinkedListDo LinkedListDo = new LinkedListDo();
-        System.out.println("\nLinkedList:");
+        System.out.println("\nLeetcode.LinkedList:");
         LinkedListDo.implementLinkedList();
 
         //HashSet implementation
