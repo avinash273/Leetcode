@@ -9,5 +9,10 @@ public class BasicMain {
         //simple class example for rectangle
         classDo classDo = new classDo();
         classDo.implementRectangle();
+
+        //Simple inheritance
+        //Its is-a
+        inheritanceTry inheritanceTry = new inheritanceTry();
+        inheritanceTry.implementAnimals();
     }
 }
