@@ -4,7 +4,7 @@ public class Helper {
 
     public static void main(String[] args) {
         System.out.println("Leetcode.Helper function to call all functionalities");
-
+        /*
         //To get GCD
         EuclidGCD EuclidGCD = new EuclidGCD();
         System.out.println("GCD is " + EuclidGCD.getGCD(20, 4));
@@ -21,5 +21,10 @@ public class Helper {
         //Leetcode.anagram
         anagram anagram = new anagram();
         anagram.groupAnagrams(new String[]{"eat", "tea", "tan", "ate", "nat", "bat"});
+         */
+
+        //Binary Search
+        BinarySearch BinarySearch = new BinarySearch();
+        BinarySearch.doBinarySearch(new int[]{1,2,3,4,5,6,7,8,9},8);
     }
 }
