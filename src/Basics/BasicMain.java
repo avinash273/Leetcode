@@ -5,5 +5,9 @@ public class BasicMain {
         //Simple switch example
         SwitchDo SwitchDo = new SwitchDo();
         SwitchDo.implementSwitch();
+
+        //simple class example for rectangle
+        classDo classDo = new classDo();
+        classDo.implementRectangle();
     }
 }
