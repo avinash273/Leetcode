@@ -22,5 +22,9 @@ public class BasicMain {
         //implementing interface
         interfaceDo interfaceDo = new interfaceDo();
         interfaceDo.implementCircle();
+
+        //string operations
+        stringOperations stringOperations = new stringOperations();
+        stringOperations.implementStringOperations();
     }
 }
