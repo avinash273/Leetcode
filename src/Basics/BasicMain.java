@@ -18,5 +18,9 @@ public class BasicMain {
         //Abstract class implementation
         abstractClassDo abstractClassDo = new abstractClassDo();
         abstractClassDo.implementAbstractClass();
+
+        //implementing interface
+        interfaceDo interfaceDo = new interfaceDo();
+        interfaceDo.implementCircle();
     }
 }
