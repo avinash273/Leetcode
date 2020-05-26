@@ -11,8 +11,12 @@ public class BasicMain {
         classDo.implementRectangle();
 
         //Simple inheritance
-        //Its is-a
+        //Its is-a and Has-a
         inheritanceTry inheritanceTry = new inheritanceTry();
         inheritanceTry.implementAnimals();
+
+        //Abstract class implementation
+        abstractClassDo abstractClassDo = new abstractClassDo();
+        abstractClassDo.implementAbstractClass();
     }
 }
