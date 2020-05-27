@@ -34,6 +34,10 @@ public class Helper extends print {
 
         //Move Zeros
         moveZeros moveZeros = new moveZeros();
-        print(moveZeros.moveZeros(new int[]{8, 0, 3, 0, 9, 0, 7, 1, 5}));
+        print("print move zeros", moveZeros.moveZeros(new int[]{8, 0, 3, 0, 9, 0, 7, 1, 5}));
+
+        //save boats
+        saveBoats saveBoats = new saveBoats();
+        print(saveBoats.saveBoats(new int[]{1,1,2,2,2,2,2,3}, 3));
     }
 }

@@ -1,5 +1,9 @@
 package Leetcode;
 
+/**
+ * moves zeros to end of the array
+ */
+
 public class moveZeros {
     int[] moveZeros(int[] arr) {
         int size = arr.length;
