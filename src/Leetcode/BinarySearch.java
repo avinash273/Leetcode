@@ -20,9 +20,9 @@ public class BinarySearch extends print {
         }
 
         if ( index == -1)
-            prints("Not present");
+            print("Not present");
         else
-            printn(index);
+            print(index);
     }
 
 }

@@ -1,6 +1,6 @@
 package Leetcode;
 
-public class Helper {
+public class Helper extends print {
 
     public static void main(String[] args) {
         System.out.println("Leetcode.Helper function to call all functionalities");
@@ -25,6 +25,15 @@ public class Helper {
 
         //Binary Search
         BinarySearch BinarySearch = new BinarySearch();
-        BinarySearch.doBinarySearch(new int[]{1,2,3,4,5,6,7,8,9},8);
+        print("Binary Search");
+        BinarySearch.doBinarySearch(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9}, 8);
+
+        //Sum of max K
+        kMaxSum kMaxSum = new kMaxSum();
+        print(kMaxSum.maxSum(new int[]{8, 2, 3, 4, 9, 6, 7, 1, 5}, 2));
+
+        //Move Zeros
+        moveZeros moveZeros = new moveZeros();
+        print(moveZeros.moveZeros(new int[]{8, 0, 3, 0, 9, 0, 7, 1, 5}));
     }
 }
