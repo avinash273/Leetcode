@@ -48,6 +48,6 @@ public class Helper extends print {
 
         //save boats
         saveBoats saveBoats = new saveBoats();
-        print(saveBoats.saveBoats(new int[]{1, 1, 2, 2, 2, 2, 2, 3}, 3));
+        print(saveBoats.saveBoats(new int[]{1,2,3,3}, 3));
     }
 }
