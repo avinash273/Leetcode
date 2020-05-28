@@ -53,5 +53,9 @@ public class Helper extends print {
         //rain water
         rainWater rainWater = new rainWater();
         print("rain water: "+rainWater.trap(new int[] {0,1,0,2,1,0,1,3,2,1,2,1}));
+
+        //max container water
+        containerMaxWater containerMaxWater = new containerMaxWater();
+        print("max container: "+containerMaxWater.maxArea(new int[] {1,8,6,2,5,4,8,3,7}));
     }
 }
