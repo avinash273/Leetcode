@@ -49,5 +49,9 @@ public class Helper extends print {
         //save boats
         saveBoats saveBoats = new saveBoats();
         print(saveBoats.saveBoats(new int[]{1,2,3,3}, 3));
+
+        //rain water
+        rainWater rainWater = new rainWater();
+        print("rain water: "+rainWater.trap(new int[] {0,1,0,2,1,0,1,3,2,1,2,1}));
     }
 }
