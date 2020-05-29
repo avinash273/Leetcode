@@ -61,5 +61,9 @@ public class Helper extends print {
         //first bad version
         firstBadVersion firstBadVersion = new firstBadVersion();
         print("first bad version: " + firstBadVersion.firstBadVersion(10));
+
+        //longest Repeating Substring
+        longestRepeatingSubstring longestRepeatingSubstring = new longestRepeatingSubstring();
+        print("longest Repeating Substring: " + longestRepeatingSubstring.lengthOfLongestSubstring("abcabcbb"));
     }
 }
