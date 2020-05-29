@@ -72,6 +72,10 @@ public class Helper extends print {
 
         //sieve Of Eratosthenes
         sieveOfEratosthenes sieveOfEratosthenes = new sieveOfEratosthenes();
-        print("sieve Of Eratosthenes: " + sieveOfEratosthenes.countPrimes(499979));
+        //print("sieve Of Eratosthenes: " + sieveOfEratosthenes.countPrimes(499979));
+
+        //single Sum
+        singleSum singleSum = new singleSum();
+        print("single Sum: " + singleSum.singleNumber(new int[]{2, 2, 1}));
     }
 }
