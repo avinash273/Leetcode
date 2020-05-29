@@ -14,7 +14,7 @@ public class Helper extends print {
          */
 
         System.out.println("Leetcode.Helper function to call all functionalities");
-        /*
+
         //To get GCD
         EuclidGCD EuclidGCD = new EuclidGCD();
         System.out.println("GCD is " + EuclidGCD.getGCD(20, 4));
@@ -31,7 +31,7 @@ public class Helper extends print {
         //Leetcode.anagram
         anagram anagram = new anagram();
         anagram.groupAnagrams(new String[]{"eat", "tea", "tan", "ate", "nat", "bat"});
-         */
+
 
         //Binary Search
         BinarySearch BinarySearch = new BinarySearch();
@@ -65,5 +65,9 @@ public class Helper extends print {
         //longest Repeating Substring
         longestRepeatingSubstring longestRepeatingSubstring = new longestRepeatingSubstring();
         print("longest Repeating Substring: " + longestRepeatingSubstring.lengthOfLongestSubstring("abcabcbb"));
+
+        //missing number
+        missingNumber missingNumber = new missingNumber();
+        print("missing number"+missingNumber.missingNumber(new int[] {0,1,2,3,5,6,7,8,9}));
     }
 }
