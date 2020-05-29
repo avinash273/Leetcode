@@ -68,6 +68,10 @@ public class Helper extends print {
 
         //missing number
         missingNumber missingNumber = new missingNumber();
-        print("missing number"+missingNumber.missingNumber(new int[] {0,1,2,3,5,6,7,8,9}));
+        print("missing number" + missingNumber.missingNumber(new int[]{0, 1, 2, 3, 5, 6, 7, 8, 9}));
+
+        //sieve Of Eratosthenes
+        sieveOfEratosthenes sieveOfEratosthenes = new sieveOfEratosthenes();
+        print("sieve Of Eratosthenes: " + sieveOfEratosthenes.countPrimes(499979));
     }
 }
