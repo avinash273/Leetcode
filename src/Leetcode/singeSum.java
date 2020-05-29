@@ -1,5 +1,6 @@
 package Leetcode;
-import java.util.*;
+
+import java.util.HashSet;
 
 class singleSum {
     public int singleNumber(int[] nums) {
@@ -17,5 +18,19 @@ class singleSum {
 
         System.out.println(set);
         return (twiceSum*2)-totalSum;
+    }
+
+    /**
+     * this is done using XOR operation a^a = 0, a^0 = a
+     * @param nums
+     * @return
+     */
+    public int singleNumber2(int[] nums) {
+        int a = 0;
+
+        for(int n: nums){
+            a = a^n;
+        }
+        return a;
     }
 }
