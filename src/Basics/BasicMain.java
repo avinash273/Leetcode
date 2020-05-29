@@ -30,5 +30,6 @@ public class BasicMain {
         //error handling
         ExceptionHandling ExceptionHandling = new ExceptionHandling();
         ExceptionHandling.implementError();
+
     }
 }

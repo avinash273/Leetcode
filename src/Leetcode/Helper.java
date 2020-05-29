@@ -77,5 +77,9 @@ public class Helper extends print {
         //single Sum
         singleSum singleSum = new singleSum();
         print("single Sum: " + singleSum.singleNumber(new int[]{2, 2, 1}));
+
+        //robot Circles
+        robotCircles robotCircles = new robotCircles();
+        print("robot Circles: "+robotCircles.judgeCircle("UDLR"));
     }
 }
