@@ -1,5 +1,10 @@
 package Leetcode;
 
+/**
+ * very imp, dint't implement on my own, regular problems are very long
+ * best and efficient way to solve this problem
+ */
+
 import java.util.*;
 
 class LRUCache extends LinkedHashMap<Integer, Integer> {
