@@ -1,6 +1,10 @@
 package Leetcode;
 import java.util.*;
 
+/**
+ * most important contains all u want.
+ */
+
 class groupAnagram {
     public List<List<String>> groupAnagrams(String[] strs) {
         HashMap<String, List> map = new HashMap<String, List>();
