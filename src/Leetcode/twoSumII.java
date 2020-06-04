@@ -1,5 +1,8 @@
 package Leetcode;
 
+/**
+ * two sum 2 pointer method for any sorted question
+ */
 class twoSumII {
     public int[] twoSum(int[] numbers, int target) {
         int aPointer = 0;
