@@ -2,6 +2,11 @@ package Leetcode;
 
 import java.util.*;
 
+/**
+ * this was medium problem in leetcode
+ * very important kind
+ */
+
 class binaryTreeInorder {
     public List<Integer> inorderTraversal(TreeNode root) {
         Stack<TreeNode> stack = new Stack<>();
