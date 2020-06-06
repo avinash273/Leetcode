@@ -4,10 +4,8 @@ package Leetcode;
  * Time complexity : O(log10(n))
  * Space complexity : O(1)
  */
-public class reverseString {
-}
 
-class Solution {
+class reverseNumber {
     public boolean isPalindrome(int x) {
         if(x == 0)
             return true;
