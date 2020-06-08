@@ -10,7 +10,6 @@ package Leetcode;
  *         next = null;
  *     }
  * }
- *
  */
 public class cycleInList {
     public boolean hasCycle(ListNode head) {
