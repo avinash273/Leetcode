@@ -1,13 +1,17 @@
 package LeetcodeAmazon;
 
-import java.util.Stack;
+import java.util.*;
 
 public class validParentheses {
 }
 
+/**
+ * T:O(n)
+ * S:O(n)
+ */
+
 class Solution1 {
     public boolean isValid(String s) {
-
         if(s == null || s.length() <= 0)
             return true;
 
