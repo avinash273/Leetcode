@@ -7,12 +7,9 @@ package LeetcodeAmazon;
 public class moveZeros {
     class Solution {
         public void moveZeroes(int[] nums) {
-            int len = nums.length;
-            int[] temp = nums;
-
             int k = 0;
             int i = 0;
-            while(i < len){
+            while(i < nums.length){
                 if(nums[i] != 0){
                     nums[k] = nums[i];
                     k++;
@@ -20,7 +17,7 @@ public class moveZeros {
                 i++;
             }
 
-            while(k < len){
+            while(k < nums.length){
                 nums[k] = 0;
                 k++;
             }
