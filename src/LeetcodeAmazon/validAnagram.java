@@ -25,4 +25,28 @@ public class validAnagram {
 
         }
     }
+
+    class Solution2 {
+        public boolean isAnagram(String s, String t) {
+            if(s.length() != t.length())
+                return false;
+
+            int[] count = new int[26];
+
+            //doing this on the assumtion that there are only small letter alphabets
+            for(int i = 0; i < s.length(); i++){
+                count[s.charAt(i) - 'a']++;
+                count[t.charAt(i) - 'a']--;
+            }
+
+
+            for(int k: count){
+                if(k != 0)
+                    return false;
+            }
+
+            return true;
+
+        }
+    }
 }
