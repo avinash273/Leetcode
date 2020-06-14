@@ -3,6 +3,10 @@ package LeetcodeAmazon;
 import java.util.Arrays;
 
 public class validAnagram {
+    /**
+     * T:O(n log n)
+     * S:O(1)
+     */
     class Solution1 {
         public boolean isAnagram(String s, String t) {
 
@@ -26,6 +30,10 @@ public class validAnagram {
         }
     }
 
+    /**
+     * T:O(n)
+     * S:O(1)
+     */
     class Solution2 {
         public boolean isAnagram(String s, String t) {
             if(s.length() != t.length())
@@ -38,7 +46,6 @@ public class validAnagram {
                 count[s.charAt(i) - 'a']++;
                 count[t.charAt(i) - 'a']--;
             }
-
 
             for(int k: count){
                 if(k != 0)
