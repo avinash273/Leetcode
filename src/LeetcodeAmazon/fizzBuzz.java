@@ -8,7 +8,7 @@ public class fizzBuzz {
 
 /**
  * T: O(n)
- * S: O(n)
+ * S: O(1)
  */
 
 class Solution4 {
