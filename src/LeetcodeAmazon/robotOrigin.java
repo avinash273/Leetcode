@@ -8,23 +8,19 @@ public class robotOrigin {
     class Solution {
         public boolean judgeCircle(String moves) {
 
-            if (moves == null || moves.length() == 0)
-                return true;
             int up = 0;
-            int left = 0;
-
-            for (char move : moves.toCharArray()) {
-                if (move == 'U')
+            for(char move: moves.toCharArray()){
+                if(move == 'U')
                     up++;
-                else if (move == 'L')
-                    left++;
-                else if (move == 'D')
+                else if(move == 'L')
+                    up += 2;
+                else if(move == 'D')
                     up--;
-                else if (move == 'R')
-                    left--;
+                else if(move == 'R')
+                    up -= 2;
             }
 
-            return up == 0 && left == 0;
+            return up == 0;
         }
     }
 }
