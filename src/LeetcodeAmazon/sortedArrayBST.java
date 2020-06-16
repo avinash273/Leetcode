@@ -17,6 +17,7 @@ public class TreeNode {
         this.right = right;
     }
 }
+
 //Preorder Traversal: Always Choose Left Middle Node as a Root
     class Solution {
         public TreeNode sortedArrayToBST(int[] nums) {
