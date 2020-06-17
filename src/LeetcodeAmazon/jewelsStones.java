@@ -2,6 +2,10 @@ package LeetcodeAmazon;
 
 import java.util.*;
 
+/**
+ * T: O(J + S)
+ * S: O(J)
+ */
 public class jewelsStones {
     class Solution {
         public int numJewelsInStones(String J, String S) {
