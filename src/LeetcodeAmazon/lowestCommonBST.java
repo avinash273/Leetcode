@@ -3,6 +3,7 @@ package LeetcodeAmazon;
 /**
  * T: O(n)
  * S: O(n)
+ * need to learn BST in depth
  */
 
 public class lowestCommonBST {
