@@ -3,6 +3,8 @@ package LeetcodeAmazon;
 /**
  * T: O(n)
  * S: O(n)
+ * need to redo this
+ * https://leetcode.com/problems/sum-of-left-leaves/solution/
  */
 
 public class sumOfLeftLeaves {
