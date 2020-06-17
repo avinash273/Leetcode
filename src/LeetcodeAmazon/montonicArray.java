@@ -3,6 +3,8 @@ package LeetcodeAmazon;
 /**
  * T: O(n)
  * S: O(1)
+ * simple and elegant need to do again
+ * https://leetcode.com/problems/monotonic-array/submissions/
  */
 public class montonicArray {
     class Solution {
