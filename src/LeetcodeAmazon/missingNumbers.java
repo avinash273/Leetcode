@@ -5,6 +5,8 @@ import java.util.*;
 /**
  * T: O(n)
  * S: O(n)
+ * The challenge was to do it O(n) O(1) way, but couldn't think of such solution
+ * https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/solution/
  */
 
 public class missingNumbers {
