@@ -1,6 +1,10 @@
 package LeetcodeTrees;
 import java.util.*;
 
+/**
+ * T: O(n)
+ * S: O(n)
+ */
 public class BinaryPreTraversal {
     public class TreeNode{
         int val;
