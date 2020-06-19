@@ -1,4 +1,5 @@
 package LeetcodeTrees;
+import java.util.*;
 
 public class BinaryPreTraversal {
     public class TreeNode{
@@ -18,5 +19,27 @@ public class BinaryPreTraversal {
         }
     }
 
-    public List<Integer> preOrderTre
+    public List<Integer> preOrderTraversal(TreeNode root){
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+        List<Integer> output = new ArrayList<Integer>();
+
+        if(root == null)
+            return output;
+
+        stack.add(root);
+
+        while(!stack.isEmpty()){
+            TreeNode node = stack.pop();
+            output.add(node.val);
+
+            if(node.right != null){
+                stack.add(node.right);
+            }
+
+            if(node.left != null){
+                stack.add(node.left);
+            }
+        }
+        return output;
+    }
 }
