@@ -31,6 +31,7 @@ public class battleShipCount {
             sink(board, i, j+1);
 
             return 1;
+
         }
     }
 
