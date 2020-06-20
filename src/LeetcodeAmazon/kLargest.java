@@ -1,6 +1,26 @@
 package LeetcodeAmazon;
 
 import java.util.Arrays;
+import java.util.PriorityQueue;
+
+/**
+ * using priority queue
+ * T: O(n log k)
+ * S: O(1)
+ */
+
+class Solution {
+    public int findKthLargest(int[] nums, int k) {
+        PriorityQueue<Integer> minHeap = new PriorityQueue<Integer>();
+
+        for(int each : nums){
+            minHeap.add(each);
+            if(minHeap.size() > k)
+                minHeap.remove();
+        }
+        return minHeap.remove();
+    }
+}
 
 /**
  * Bad Solution, not interview worth
