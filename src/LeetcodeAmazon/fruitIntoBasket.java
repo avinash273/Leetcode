@@ -10,7 +10,7 @@ import java.util.HashMap;
 public class fruitIntoBasket {
     class Solution {
         public int totalFruit(int[] tree) {
-            if(tree == null || tree.length == 0){
+            if (tree == null || tree.length == 0) {
                 return 0;
             }
 
@@ -20,13 +20,13 @@ public class fruitIntoBasket {
             int i = 0;
             int j = 0;
 
-            while(j < tree.length){
-                if(map.size() <=2)
-                    map.put(tree[j],j++);
+            while (j < tree.length) {
+                if (map.size() <= 2)
+                    map.put(tree[j], j++);
 
-                if(map.size() > 2){
+                if (map.size() > 2) {
                     int min = tree.length - 1;
-                    for(int value: map.values()){
+                    for (int value : map.values()) {
                         min = Math.min(min, value);
                     }
 
