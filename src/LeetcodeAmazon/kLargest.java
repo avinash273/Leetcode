@@ -5,8 +5,8 @@ import java.util.PriorityQueue;
 
 /**
  * using priority queue
- * T: O(n log k)
- * S: O(1)
+ * T: O(n)
+ * S: O(n)
  */
 
 class Solution {
