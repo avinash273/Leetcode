@@ -1,8 +1,8 @@
 package LeetcodeAmazon;
 
 /**
- *
- *
+ *T: O(max(m,n))
+ *S: O(max(m,n))
  */
 
 public class AddBinary {
