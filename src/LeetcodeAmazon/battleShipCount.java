@@ -2,11 +2,11 @@ package LeetcodeAmazon;
 
 /**
  * sol1
- * T: O(n)
- * S: O(n)
+ * T: O(mn)
+ * S: O(mn)
  *
  * sol2
- * T: O(n)
+ * T: O(mn)
  * S: O(1)
  */
 
