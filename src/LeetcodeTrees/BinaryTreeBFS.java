@@ -1,4 +1,4 @@
-package LeetcodeAmazon;
+package LeetcodeTrees;
 
 import java.util.*;
 
