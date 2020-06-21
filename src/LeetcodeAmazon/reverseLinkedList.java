@@ -22,6 +22,27 @@ public class reverseLinkedList {
 
     /**
      * T: O(n)
+     * S: O(1)
+     * Best solution, understood when doing need to do again
+     */
+
+    class Solution {
+        public ListNode reverseList(ListNode head) {
+            ListNode prev = null;
+            ListNode curr = head;
+
+            while (curr != null) {
+                ListNode nextTemp = curr.next;
+                curr.next = prev;
+                prev = curr;
+                curr = nextTemp;
+            }
+            return prev;
+        }
+    }
+
+    /**
+     * T: O(n)
      * S: O(n)
      * using stack here, not the ideal solution.
      */
