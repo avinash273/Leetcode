@@ -3,6 +3,7 @@ package LeetcodeAmazon;
 /**
  * T: O(n) where n = letter count
  * S: (1)
+ * https://leetcode.com/problems/detect-capital/submissions/
  */
 
 public class detectCapital {
