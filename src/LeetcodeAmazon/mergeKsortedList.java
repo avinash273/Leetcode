@@ -3,7 +3,7 @@ package LeetcodeAmazon;
 import java.util.PriorityQueue;
 
 /**
- * T: O(n)
+ * T: O(n log n) as we are using priority queue, best case is possible when, its a ordered list, O(n)
  * S: O(n)
  * very good and easy problem
  * would like to revist, just because it felt so easy do it
