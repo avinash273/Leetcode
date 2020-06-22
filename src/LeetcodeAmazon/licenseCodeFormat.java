@@ -3,6 +3,7 @@ package LeetcodeAmazon;
 /**
  * T: O(n)
  * S: O(1)
+ * my own solution good job
  */
 public class licenseCodeFormat {
 
