@@ -5,6 +5,8 @@ import java.util.PriorityQueue;
 /**
  * T: O(n)
  * S: O(k)
+ * Link:
+ * https://leetcode.com/problems/k-closest-points-to-origin/solution/
  */
 
 public class kClosestToOrigin {
