@@ -2,6 +2,14 @@ package LeetcodeAmazon;
 
 import java.util.*;
 
+/**
+ * Time and space not know
+ * Didnt understand completely
+ * Will, get back to this problem, soon
+ * Link
+ * https://leetcode.com/problems/frog-jump/submissions/
+ */
+
 public class frogJump {
     class Solution {
         public boolean canCross(int[] stones) {
