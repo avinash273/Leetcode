@@ -1,4 +1,4 @@
-package LeetcodeAmazon;
+package LeetcodeDFS;
 
 /**
  * T: O(n)
