@@ -2,6 +2,11 @@ package LeetcodeAmazon;
 
 import java.util.HashMap;
 
+/**
+ * T: O(n) n -> magazine
+ * S: O(m) m -> magazine
+ */
+
 public class ransomNote {
     class Solution {
         public boolean canConstruct(String ransomNote, String magazine) {
