@@ -2,6 +2,11 @@ package LeetcodeAmazon;
 
 import java.util.*;
 
+/**
+ * revist again, good problem
+ * T: O(n)
+ * S: O(n)
+ */
 public class repeatedDNASequence {
     class Solution {
         public List<String> findRepeatedDnaSequences(String s) {
