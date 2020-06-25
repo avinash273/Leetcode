@@ -9,7 +9,7 @@ import java.util.PriorityQueue;
  */
 
 public class lastStoneWeight {
-    class Solution {
+    static class Solution {
         public int lastStoneWeight(int[] stones) {
             PriorityQueue<Integer> maxHeap = new PriorityQueue<>((a, b) -> b-a);
 
