@@ -4,7 +4,7 @@ package LeetcodeAmazon;
  * T: O(n)
  * S: O(n)
  * https://leetcode.com/problems/validate-binary-search-tree/submissions/
- * facebook
+ * facebook, need to do again. Good problem
  */
 
 public class checkValidBST {
