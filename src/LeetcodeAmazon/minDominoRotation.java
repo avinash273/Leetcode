@@ -19,15 +19,15 @@ public class minDominoRotation {
             //means B[0] element must match with All B
             minSwaps = Math.min(minSwaps, numSwaps(B[0], B, A));
 
-            return minSwaps == Integer.MAX_VALUE ? -1: minSwaps;
+            return minSwaps == Integer.MAX_VALUE ? -1 : minSwaps;
         }
 
-        public int numSwaps(int target, int[] A, int[] B){
+        public int numSwaps(int target, int[] A, int[] B) {
             int numSwaps = 0;
-            for(int i = 0; i < A.length; i++){
-                if(A[i] != target && B[i] != target)
+            for (int i = 0; i < A.length; i++) {
+                if (A[i] != target && B[i] != target)
                     return Integer.MAX_VALUE;
-                else if(A[i] != target)
+                else if (A[i] != target)
                     numSwaps++;
             }
             return numSwaps;
