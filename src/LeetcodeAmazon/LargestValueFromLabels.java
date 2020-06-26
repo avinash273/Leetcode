@@ -2,7 +2,10 @@ package LeetcodeAmazon;
 
 import java.util.*;
 
-
+/**
+ * T: O(n log n)
+ * S: O(n)
+ */
 
 public class LargestValueFromLabels {
     class Solution {
