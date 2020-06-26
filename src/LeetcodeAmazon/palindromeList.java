@@ -1,5 +1,10 @@
 package LeetcodeAmazon;
 
+/**
+ * T: O(n)
+ * S: O(1)
+ */
+
 public class palindromeList {
 
     public class ListNode {
