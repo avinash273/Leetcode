@@ -1,11 +1,11 @@
-package LeetcodeTrees;
+package LeetcodeTreesLinkedList;
 
 /**
  * T: O(n)
  * S: O(n)
  */
 
-public class mergeTwoBinaryTree {
+public class maxDepthBinaryTree {
     public class TreeNode {
         int val;
         TreeNode left;
@@ -26,17 +26,14 @@ public class mergeTwoBinaryTree {
     }
 
     class Solution {
-        public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
-            if (t1 == null)
-                return t2;
-            if (t2 == null)
-                return t1;
+        public int maxDepth(TreeNode root) {
+            if (root == null)
+                return 0;
 
-            t1.val += t2.val;
-            t1.left = mergeTrees(t1.left, t2.left);
-            t1.right = mergeTrees(t1.right, t2.right);
+            int left = maxDepth(root.left);
+            int right = maxDepth(root.right);
 
-            return t1;
+            return Math.max(left, right) + 1;
         }
     }
 }

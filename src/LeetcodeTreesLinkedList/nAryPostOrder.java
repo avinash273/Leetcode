@@ -1,8 +1,8 @@
-package LeetcodeTrees;
+package LeetcodeTreesLinkedList;
 
 import java.util.*;
 
-public class nAryTreePreOrder {
+public class nAryPostOrder {
 
     class Node {
         public int val;
@@ -22,7 +22,6 @@ public class nAryTreePreOrder {
     }
 
     ;
-
 
     class Solution {
         public List<Integer> postorder(Node root) {

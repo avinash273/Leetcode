@@ -1,11 +1,11 @@
-package LeetcodeTrees;
+package LeetcodeTreesLinkedList;
 
 /**
  * T: O(n)
  * S: O(n)
  */
 
-public class maxDepthBinaryTree {
+public class invertBinaryTree {
     public class TreeNode {
         int val;
         TreeNode left;
@@ -26,14 +26,18 @@ public class maxDepthBinaryTree {
     }
 
     class Solution {
-        public int maxDepth(TreeNode root) {
+        public TreeNode invertTree(TreeNode root) {
             if (root == null)
-                return 0;
+                return root;
 
-            int left = maxDepth(root.left);
-            int right = maxDepth(root.right);
+            TreeNode right = invertTree(root.right);
+            TreeNode left = invertTree(root.left);
 
-            return Math.max(left, right) + 1;
+            root.left = right;
+            root.right = left;
+
+            return root;
+
         }
     }
 }

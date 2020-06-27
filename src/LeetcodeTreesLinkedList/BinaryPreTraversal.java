@@ -1,4 +1,4 @@
-package LeetcodeTrees;
+package LeetcodeTreesLinkedList;
 import java.util.*;
 
 /**

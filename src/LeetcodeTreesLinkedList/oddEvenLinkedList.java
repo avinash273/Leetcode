@@ -1,4 +1,4 @@
-package LeetcodeTrees;
+package LeetcodeTreesLinkedList;
 
 /**
  * https://leetcode.com/problems/odd-even-linked-list/

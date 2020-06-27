@@ -1,11 +1,11 @@
-package LeetcodeTrees;
+package LeetcodeTreesLinkedList;
 
 /**
  * T: O(n)
  * S: O(n)
  */
 
-public class invertBinaryTree {
+public class mergeTwoBinaryTree {
     public class TreeNode {
         int val;
         TreeNode left;
@@ -26,18 +26,17 @@ public class invertBinaryTree {
     }
 
     class Solution {
-        public TreeNode invertTree(TreeNode root) {
-            if (root == null)
-                return root;
+        public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
+            if (t1 == null)
+                return t2;
+            if (t2 == null)
+                return t1;
 
-            TreeNode right = invertTree(root.right);
-            TreeNode left = invertTree(root.left);
+            t1.val += t2.val;
+            t1.left = mergeTrees(t1.left, t2.left);
+            t1.right = mergeTrees(t1.right, t2.right);
 
-            root.left = right;
-            root.right = left;
-
-            return root;
-
+            return t1;
         }
     }
 }

@@ -1,4 +1,4 @@
-package LeetcodeTrees;
+package LeetcodeTreesLinkedList;
 
 public class symmetricTree {
 
