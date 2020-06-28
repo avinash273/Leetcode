@@ -2,6 +2,11 @@ package LeetcodeTreesLinkedList;
 
 import java.util.*;
 
+/**
+ * T: O(n)
+ * S: O(n)
+ */
+
 public class checkCompletenessBinaryTree {
 
     public class TreeNode {
