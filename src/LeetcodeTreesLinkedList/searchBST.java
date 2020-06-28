@@ -1,5 +1,10 @@
 package LeetcodeTreesLinkedList;
 
+/**
+ * T: O(log n) in most cases, worst O(n)
+ * S: same as above, due to recursion stack built
+ */
+
 public class searchBST {
 
     public class TreeNode {
