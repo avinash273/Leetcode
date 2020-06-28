@@ -1,5 +1,10 @@
 package LeetcodeTreesLinkedList;
 
+/**
+ * T: O(n log n)
+ * S: (n)
+ */
+
 public class mergeSortList {
     public class ListNode {
         int val;
