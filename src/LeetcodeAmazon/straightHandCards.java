@@ -3,6 +3,7 @@ package LeetcodeAmazon;
 import java.util.TreeMap;
 
 /**
+ * Good problem, I liked it.
  * T: O(log n) -> TreeMap in java has complexity of (log n) for get, put and remove operation
  * It basically implements red black tree
  * S: O(n)
