@@ -5,6 +5,8 @@ import java.util.*;
 /**
  * T: O(n)
  * S: O(n)
+ * space complexity not sure, feels like O(1)
+ * as queue can never reach O(n) even in worst case
  */
 
 public class checkCompletenessBinaryTree {
