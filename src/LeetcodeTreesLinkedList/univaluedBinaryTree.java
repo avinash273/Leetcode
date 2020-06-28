@@ -1,5 +1,10 @@
 package LeetcodeTreesLinkedList;
 
+/**
+ * T: O(n)
+ * S: O(n)
+ */
+
 public class univaluedBinaryTree {
 
     public class TreeNode {
