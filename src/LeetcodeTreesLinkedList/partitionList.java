@@ -1,8 +1,10 @@
 package LeetcodeTreesLinkedList;
 
 /**
+ * easy but, important question
  * T: O(n)
  * S: O(1)
+ * https://leetcode.com/problems/partition-list/
  */
 
 public class partitionList {
