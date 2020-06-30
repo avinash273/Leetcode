@@ -2,6 +2,11 @@ package LeetcodeAmazon;
 
 import java.util.*;
 
+/**
+ * T: O(A + B)
+ * S: O(A.length + B.length)
+ */
+
 public class wordSubsets {
     class Solution {
         public List<String> wordSubsets(String[] A, String[] B) {
