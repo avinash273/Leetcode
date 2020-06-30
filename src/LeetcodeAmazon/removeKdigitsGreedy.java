@@ -2,6 +2,11 @@ package LeetcodeAmazon;
 
 import java.util.Stack;
 
+/**
+ * T: O(n)
+ * S: O(n)
+ */
+
 public class removeKdigitsGreedy {
     class Solution {
         public String removeKdigits(String num, int k) {
