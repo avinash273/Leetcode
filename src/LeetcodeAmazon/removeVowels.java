@@ -25,4 +25,11 @@ public class removeVowels {
             return sb.toString();
         }
     }
+
+
+    class Solution2 {
+        public String removeVowels(String S) {
+            return S.replaceAll("[aeiou]","");
+        }
+    }
 }
