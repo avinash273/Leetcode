@@ -2,6 +2,11 @@ package LeetcodeAmazon;
 
 import java.util.*;
 
+/**
+ * T: O(m+n)
+ * S: O(m+n)
+ */
+
 public class nextGreatestElement {
     class Solution {
         public int[] nextGreaterElement(int[] nums1, int[] nums2) {
