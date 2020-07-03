@@ -2,6 +2,10 @@ package LeetcodeAmazon;
 
 import java.util.*;
 
+/**
+ * T: O(paragraph + banned)
+ * S: O(banned)
+ */
 public class mostCommonWordNotBanned {
     class Solution {
         public String mostCommonWord(String paragraph, String[] banned) {
