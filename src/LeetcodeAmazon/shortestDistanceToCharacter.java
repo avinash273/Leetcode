@@ -5,6 +5,7 @@ import java.util.Arrays;
 /**
  * T: O(n^2)
  * S: O(n)
+ * There is O(n) leetcode solution.
  */
 public class shortestDistanceToCharacter {
     class Solution {
