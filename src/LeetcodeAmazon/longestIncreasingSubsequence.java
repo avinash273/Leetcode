@@ -33,7 +33,7 @@ public class longestIncreasingSubsequence {
      * Time : O(n^2)
      * Space: O(n)
      */
-    class Solution {
+    class Solution2 {
         public int lengthOfLIS(int[] nums) {
             if(nums == null || nums.length == 0)
                 return 0;
