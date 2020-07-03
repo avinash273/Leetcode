@@ -3,7 +3,7 @@ package LeetcodeAmazon;
 /**
  * T: O(n)
  * S: O(1)
- * awesome problem, simple trick need to know
+ * awesome problem simple trick need to know
  */
 public class rotateArray {
     class Solution {
