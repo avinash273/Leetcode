@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * T: O(m+n)
- * S: O(m+n)
+ * S: (m)
  */
 
 public class nextGreatestElement {
