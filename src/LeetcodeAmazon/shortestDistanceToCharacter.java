@@ -2,6 +2,10 @@ package LeetcodeAmazon;
 
 import java.util.Arrays;
 
+/**
+ * T: O(n^2)
+ * S: O(n)
+ */
 public class shortestDistanceToCharacter {
     class Solution {
         public int[] shortestToChar(String S, char C) {
