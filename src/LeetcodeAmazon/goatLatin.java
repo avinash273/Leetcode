@@ -2,6 +2,11 @@ package LeetcodeAmazon;
 
 import java.util.HashSet;
 
+/**
+ * T: O(n^2)
+ * S: O(n)
+ */
+
 public class goatLatin {
     class Solution {
         public String toGoatLatin(String S) {
