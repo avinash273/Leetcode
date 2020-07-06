@@ -1,5 +1,9 @@
 package LeetcodeTreesLinkedList;
 
+/**
+ * T: O(n)
+ * S: O(log n)
+ */
 public class binaryTreeMaximumPathSum {
     public class TreeNode {
         int val;
