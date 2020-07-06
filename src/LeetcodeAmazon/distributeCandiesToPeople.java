@@ -3,6 +3,7 @@ package LeetcodeAmazon;
 /**
  * T: O(n)
  * S: O(1)
+ * https://leetcode.com/problems/distribute-candies-to-people/
  */
 public class distributeCandiesToPeople {
     class Solution {
