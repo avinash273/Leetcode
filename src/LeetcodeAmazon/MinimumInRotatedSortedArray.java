@@ -3,6 +3,7 @@ package LeetcodeAmazon;
 /**
  * T: O(log n)
  * S: O(1)
+ *
  */
 public class MinimumInRotatedSortedArray {
     class Solution {
