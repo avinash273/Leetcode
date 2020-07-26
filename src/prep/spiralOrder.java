@@ -3,6 +3,10 @@ package prep;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * T: O(m*n)
+ * S: O(1)
+ */
 public class spiralOrder {
     class Solution {
         public List<Integer> spiralOrder(int[][] matrix) {
