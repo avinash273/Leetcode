@@ -1,5 +1,9 @@
 package Top75;
 
+/**
+ * T: O(log n)
+ * S: O(1)
+ */
 public class SearchInRotatedSortedArray {
     class Solution {
         public int search(int[] nums, int target) {
