@@ -1,7 +1,8 @@
 package Top75;
 
 /**
- *
+ * T: O(log n)
+ * S: O(1)
  */
 public class findMinRotatedSorted {
     class Solution {
