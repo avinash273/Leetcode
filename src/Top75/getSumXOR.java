@@ -1,5 +1,9 @@
 package Top75;
 
+/**
+ * T: O(1)
+ * S: O(1)
+ */
 public class getSumXOR {
     class Solution {
         public int getSum(int a, int b) {
