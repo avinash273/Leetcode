@@ -1,5 +1,9 @@
 package Top75;
 
+/**
+ * T: O(1) ~ O(32bits)
+ * S: O(1)
+ */
 public class hammingDistance {
     public class Solution {
         public int hammingWeight(int n) {
