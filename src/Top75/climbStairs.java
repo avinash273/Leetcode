@@ -1,5 +1,9 @@
 package Top75;
 
+/**
+ * T: O(n)
+ * S: O(n)
+ */
 public class climbStairs {
     class Solution {
         public int climbStairs(int n) {
