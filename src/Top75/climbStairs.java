@@ -19,6 +19,10 @@ public class climbStairs {
         }
     }
 
+    /**
+     * T: O(n)
+     * S: O(1)
+     */
     public class Solution2 {
         public int climbStairs(int n) {
             if (n == 1) {
