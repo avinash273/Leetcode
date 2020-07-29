@@ -2,6 +2,10 @@ package Top75;
 
 import java.util.Arrays;
 
+/**
+ * T: O(m * n)
+ * S: O(n)
+ */
 public class coinChange {
     class Solution {
         public int coinChange(int[] coins, int amount) {
