@@ -23,5 +23,4 @@ public class longestCommonSubsequence {
             return dp[text1.length()][text2.length()];
         }
     }
-
 }
