@@ -5,10 +5,14 @@ import java.util.Arrays;
 /**
  * T: O(m * n)
  * S: O(n)
+ * n -> amount
+ * m -> coins
  */
 
 /**
- * updated one after trying sort
+ * updated one after trying sort solution 2
+ * T: O(mn) + O(m log m)
+ * S: O(n)
  */
 public class coinChange {
     class Solution {
