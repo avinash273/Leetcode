@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * T: O(n^2)
- * S: O(n)
+ * S: O(n) --> length
  */
 public class longestIncreasingSubsequence {
     class Solution {
