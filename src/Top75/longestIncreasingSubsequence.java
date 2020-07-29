@@ -3,6 +3,7 @@ package Top75;
 import java.util.Arrays;
 
 /**
+ * sol1
  * T: O(n^2)
  * S: O(n) --> length
  */
