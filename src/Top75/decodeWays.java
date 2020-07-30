@@ -1,6 +1,9 @@
 package Top75;
 
-
+/**
+ * T: O(n)
+ * S: O(n)
+ */
 public class decodeWays {
     class Solution {
         public int numDecodings(String s) {
