@@ -1,5 +1,9 @@
 package Top75;
 
+/**
+ * T: O(1)
+ * S: O(1)
+ */
 public class reverserBits {
     public class Solution {
         // you need treat n as an unsigned value
