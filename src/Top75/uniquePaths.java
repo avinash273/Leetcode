@@ -1,5 +1,9 @@
 package Top75;
 
+/**
+ * T: O(mn)
+ * S: O(mn)
+ */
 public class uniquePaths {
     class Solution {
         public int uniquePaths(int m, int n) {
