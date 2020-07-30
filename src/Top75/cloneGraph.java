@@ -5,6 +5,10 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * T: O(n)
+ * S: O(n)
+ */
 public class cloneGraph {
 
     // Definition for a Node.
