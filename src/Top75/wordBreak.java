@@ -7,6 +7,7 @@ import java.util.Set;
 /**
  * T: O(n^2)
  * S: O(n)
+ * need to redo again
  */
 public class wordBreak {
     class Solution {
