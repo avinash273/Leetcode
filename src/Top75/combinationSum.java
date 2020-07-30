@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * T: O(n log n)
+ * S: O(n)
+ */
 public class combinationSum {
     class Solution {
         public List<List<Integer>> combinationSum(int[] nums, int target) {
