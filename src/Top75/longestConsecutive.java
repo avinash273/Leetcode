@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * T: O(n^2)
+ * T: O(n)
  * S: O(n)
  */
 public class longestConsecutive {
