@@ -4,7 +4,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-
+/**
+ * T: O(mn)
+ * S: O(2*mn) ~ O(mn)
+ */
 public class pacificAtlantic {
     class Solution {
         public List<List<Integer>> pacificAtlantic(int[][] matrix) {
