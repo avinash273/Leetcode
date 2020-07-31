@@ -3,7 +3,14 @@ package Top75;
 import java.util.*;
 
 public class validGraph {
-
+    /**
+     * T: O(n)
+     * S: O(n)
+     *
+     * valid graph hypothesis
+     * 1. n - 1 edges
+     * 2. all nodes reachable
+     */
     class Solution {
         public boolean validTree(int n, int[][] edges) {
             if (edges.length != n - 1) return false;
