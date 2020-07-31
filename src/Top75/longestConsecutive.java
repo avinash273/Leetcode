@@ -3,6 +3,10 @@ package Top75;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * T: O(n^2)
+ * S: O(n)
+ */
 public class longestConsecutive {
     class Solution {
         public int longestConsecutive(int[] nums) {
