@@ -1,5 +1,9 @@
 package Top75;
 
+/**
+ * T: O(mn)
+ * S: O(mn)
+ */
 public class islandCount {
     class Solution {
         public int numIslands(char[][] grid) {
