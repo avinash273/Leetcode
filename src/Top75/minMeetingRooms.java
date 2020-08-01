@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * T: O(n log n)
- * S: O(2n)
+ * S: O(2n) ~ O(n)
  */
 public class minMeetingRooms {
     class Solution {
