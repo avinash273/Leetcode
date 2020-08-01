@@ -2,6 +2,10 @@ package Top75;
 
 import java.util.Arrays;
 
+/**
+ * T: O(n log n)
+ * S: O(n)
+ */
 public class meetingRooms {
     class Solution {
         public boolean canAttendMeetings(int[][] intervals) {
