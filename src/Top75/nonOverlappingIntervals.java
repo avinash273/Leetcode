@@ -2,7 +2,10 @@ package Top75;
 
 import java.util.Arrays;
 
-
+/**
+ * T: O(n log n)
+ * S: (1)
+ */
 public class nonOverlappingIntervals {
     class Solution {
         public int eraseOverlapIntervals(int[][] intervals) {
