@@ -3,6 +3,10 @@ package Top75;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * T: O(n)
+ * S: O(n)
+ */
 public class insertInterval {
     class Solution {
         public int[][] insert(int[][] intervals, int[] newInterval) {
