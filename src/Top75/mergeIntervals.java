@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * T: O(n log n)
+ * S: O(1)
+ */
 public class mergeIntervals {
     class Solution {
         public int[][] merge(int[][] intervals) {
