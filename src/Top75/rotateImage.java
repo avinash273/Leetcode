@@ -1,6 +1,9 @@
 package Top75;
 
-
+/**
+ * T: O(mn)
+ * S: O(1)
+ */
 public class rotateImage {
     //https://www.youtube.com/watch?v=SA867FvqHrM
     class Solution {
