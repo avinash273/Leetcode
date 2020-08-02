@@ -1,5 +1,9 @@
 package Top75;
 
+/**
+ * T: O(s)
+ * S: O(1)
+ */
 public class validAnagram {
     class Solution {
         public boolean isAnagram(String s, String t) {
