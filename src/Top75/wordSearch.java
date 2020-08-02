@@ -1,5 +1,9 @@
 package Top75;
 
+/**
+ * T: O(mn)
+ * S: O(mn)
+ */
 public class wordSearch {
     //https://www.youtube.com/watch?v=vYYNp0Jrdv0&t=30s
     class Solution {
