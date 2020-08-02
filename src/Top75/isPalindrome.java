@@ -1,5 +1,9 @@
 package Top75;
 
+/**
+ * T: O(n)
+ * S: O(1)
+ */
 public class isPalindrome {
     class Solution {
         public boolean isPalindrome(String s) {
