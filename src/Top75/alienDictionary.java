@@ -2,6 +2,10 @@ package Top75;
 
 import java.util.*;
 
+/**
+ * topological sort
+ * Complex solution
+ */
 public class alienDictionary {
     class Solution {
         public String alienOrder(String[] words) {
