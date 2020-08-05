@@ -1,6 +1,9 @@
 package Leetcode;
 
-
+/**
+ * T: O(n^2)
+ * S: O(1)
+ */
 public class longestPalindromeSubstring {
     public class Solution {
         private int lo, maxLen;
