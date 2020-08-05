@@ -5,7 +5,10 @@ import java.util.*;
 /**
  * topological sort
  * Complex solution
- */
+ * failed interview today, i realised, have miles to go to become a perfect coder
+ * i will!!!
+ * Wont quit..will never quit...
+ * */
 public class alienDictionary {
     class Solution {
         public String alienOrder(String[] words) {
