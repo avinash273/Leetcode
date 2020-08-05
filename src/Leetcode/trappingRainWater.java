@@ -1,5 +1,9 @@
 package Leetcode;
 
+/**
+ * Time: O(n)
+ * Space: O(1)
+ */
 public class trappingRainWater {
     class Solution {
         public int trap(int[] height) {
