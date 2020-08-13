@@ -3,7 +3,6 @@ package Leetcode;
 /**
  * T: O(n)
  * S: O(1)
- * best solution i think
  */
 public class runningSumArray {
     class Solution {
