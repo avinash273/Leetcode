@@ -2,6 +2,10 @@ package Leetcode;
 
 import java.util.Arrays;
 
+/**
+ * T: O(n)
+ * S: O(n)
+ */
 public class reorderLog {
     class Solution {
         public String[] reorderLogFiles(String[] logs) {
