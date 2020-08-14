@@ -1,5 +1,9 @@
 package ErrorHandling;
 
+/**
+ * https://www.linkedin.com/learning/java-11-plus-essential-training/declare-and-use-custom-classes?u=56687537
+ * from this series
+ */
 public class ErrorHandling {
     public static void main(String[] args) {
 
