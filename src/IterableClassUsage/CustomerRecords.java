@@ -14,8 +14,13 @@ public class CustomerRecords implements Iterable<Customer>{
         this.records.put(c.getName(), c);
     }
 
+    /**
+     * I am returning new HashMap so that client cannot corrupt the original value
+     * this is a very interesting topic, need to revist it sometime
+     * https://www.linkedin.com/learning/java-memory-management/an-escaping-references-example?u=56687537
+     */
     public HashMap<String, Customer> getCustomer(){
-        return this.records;
+        return new HashMap<String, Customer>(this.records);
     }
 
     @Override
