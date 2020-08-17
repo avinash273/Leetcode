@@ -22,6 +22,7 @@ public class CustomerRecords implements Iterable<Customer>{
      *
      */
     public HashMap<String, Customer> getCustomer(){
+        //this is very imporatant line of code
         return new HashMap<String, Customer>(this.records);
     }
 
