@@ -7,6 +7,8 @@ public class MainForCustomer {
         records.addCustomer(new Customer("Avinash"));
         records.addCustomer(new Customer("Akash"));
 
-
+        for(Customer next : records){
+            System.out.println(next);
+        }
     }
 }
