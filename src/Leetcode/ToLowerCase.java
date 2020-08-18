@@ -1,5 +1,9 @@
 package Leetcode;
 
+/**
+ * T: O(n)
+ * S: O(n)
+ */
 public class ToLowerCase {
     class Solution {
         public String toLowerCase(String str) {
