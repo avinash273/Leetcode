@@ -1,5 +1,9 @@
 package Leetcode;
 
+/**
+ * T: O(n)
+ * S: O(n)
+ */
 public class ShuffleArray {
     class Solution {
         public int[] shuffle(int[] nums, int n) {
