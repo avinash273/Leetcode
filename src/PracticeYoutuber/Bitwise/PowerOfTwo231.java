@@ -1,5 +1,9 @@
 package PracticeYoutuber.Bitwise;
 
+/**
+ * T: O(1)
+ * S: O(1)
+ */
 public class PowerOfTwo231 {
     class Solution {
         public boolean isPowerOfTwo(int n) {
