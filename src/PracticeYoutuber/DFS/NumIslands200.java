@@ -1,5 +1,9 @@
 package PracticeYoutuber.DFS;
 
+/**
+ * T: O(n)
+ * S: O(n)
+ */
 public class NumIslands200 {
     class Solution {
         public int numIslands(char[][] grid) {
