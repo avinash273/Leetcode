@@ -1,5 +1,9 @@
 package PracticeYoutuber.Bitwise;
 
+/**
+ * T: O(n)
+ * S: O(1)
+ */
 public class SingleNumber136 {
     class Solution {
         public int singleNumber(int[] nums) {
