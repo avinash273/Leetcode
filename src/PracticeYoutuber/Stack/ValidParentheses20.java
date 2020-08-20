@@ -2,6 +2,10 @@ package PracticeYoutuber.Stack;
 
 import java.util.Stack;
 
+/**
+ * T: O(n)
+ * S: O(n)
+ */
 public class ValidParentheses20 {
     //https://leetcode.com/problems/valid-parentheses/discuss/9178/Short-java-solution
     class Solution {
