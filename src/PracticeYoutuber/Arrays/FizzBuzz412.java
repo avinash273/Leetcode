@@ -3,6 +3,10 @@ package PracticeYoutuber.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * T: O(n)
+ * S: O(1)
+ */
 public class FizzBuzz412 {
     class Solution {
         public List<String> fizzBuzz(int n) {
