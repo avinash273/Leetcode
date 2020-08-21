@@ -1,5 +1,9 @@
 package PracticeYoutuber.Arrays;
 
+/**
+ * T: O(n)
+ * S: O(1)
+ */
 public class BuySellStock121 {
     class Solution {
         public int maxProfit(int[] prices) {
