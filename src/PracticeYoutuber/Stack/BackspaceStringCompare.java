@@ -3,7 +3,8 @@ package PracticeYoutuber.Stack;
 import java.util.Stack;
 
 /**
- * T: O()
+ * T: O(m + n)
+ * S: O(m + n)
  */
 public class BackspaceStringCompare {
     class Solution {
