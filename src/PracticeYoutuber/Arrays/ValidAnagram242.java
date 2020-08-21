@@ -1,5 +1,9 @@
 package PracticeYoutuber.Arrays;
 
+/**
+ * T: O(n)
+ * S: O(1)
+ */
 public class ValidAnagram242 {
     class Solution {
         public boolean isAnagram(String s, String t) {
