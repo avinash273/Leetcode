@@ -1,5 +1,9 @@
 package PracticeYoutuber.Arrays;
 
+/**
+ * T: O(n)
+ * S: O(1)
+ */
 public class FirstUniqueChar387 {
     class Solution {
         public int firstUniqChar(String s) {
