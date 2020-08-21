@@ -1,5 +1,9 @@
 package PracticeYoutuber.Arrays;
 
+/**
+ * T: O(n)
+ * S: O(1)
+ */
 public class MoveZeroes {
     class Solution {
         public void moveZeroes(int[] nums) {
