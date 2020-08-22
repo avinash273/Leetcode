@@ -1,5 +1,9 @@
 package PracticeYoutuber.Arrays;
 
+/**
+ * T: (n)
+ * S: (1)
+ */
 public class PlusOne {
     class Solution {
         public int[] plusOne(int[] digits) {
