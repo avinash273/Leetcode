@@ -1,7 +1,10 @@
 package PracticeYoutuber.BinarySearch;
 
 
-
+/**
+ * T: O(log n)
+ * S: O(1)
+ */
 public class FirstBadVersion {
     /**
      * The isBadVersion API is defined in the parent class VersionControl.
