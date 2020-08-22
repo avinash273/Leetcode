@@ -1,9 +1,6 @@
 package PracticeYoutuber.Arrays;
 
-/**
- * T: O(n)
- * S: O(1)
- */
+
 public class RobotReturnToOrigin {
     class Solution {
         public boolean judgeCircle(String moves) {
