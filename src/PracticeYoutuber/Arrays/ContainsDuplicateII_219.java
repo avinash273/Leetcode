@@ -3,6 +3,10 @@ package PracticeYoutuber.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * T: O(n)
+ * S: O(n)
+ */
 public class ContainsDuplicateII_219 {
     class Solution {
         public boolean containsNearbyDuplicate(int[] nums, int k) {
