@@ -1,5 +1,9 @@
 package PracticeYoutuber.Bitwise;
 
+/**
+ * T: O(n)
+ * S: O(1)
+ */
 public class FindDifferenceString389 {
     class Solution {
         public char findTheDifference(String s, String t) {
