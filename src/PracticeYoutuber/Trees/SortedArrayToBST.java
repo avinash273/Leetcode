@@ -1,5 +1,9 @@
 package PracticeYoutuber.Trees;
 
+/**
+ * T: O(n)
+ * S: O(n) -> not sure can be n/2
+ */
 public class SortedArrayToBST {
 
     public class TreeNode {
