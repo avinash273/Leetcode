@@ -1,4 +1,4 @@
-package PracticeYoutuber.Trees;
+package PracticeYoutuber.Arrays;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -6,6 +6,10 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * First solution
+ * T: O(n^2)
+ * S: O(1)
+ *
  *
  */
 public class GetDuplicateElements {
