@@ -2,7 +2,7 @@ package PracticeYoutuber.Trees;
 
 /**
  * T: O(n)
- * S: O(n) -> not sure can be n/2
+ * S: O(n) -> not sure can be less than n
  */
 public class SortedArrayToBST {
 
