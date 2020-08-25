@@ -2,6 +2,10 @@ package PracticeYoutuber.Trees;
 
 import java.util.PriorityQueue;
 
+/**
+ * T: O(n log k)
+ * S: O(nk)
+ */
 public class MergeKSortedLists {
 
     public class ListNode {
