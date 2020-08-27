@@ -5,7 +5,7 @@ import java.util.PriorityQueue;
 /**
  * T: O(n log k)
  * S: O(nk)
- * good problem
+ * good problem, retry without heap
  */
 public class MergeKSortedLists {
 
