@@ -1,5 +1,9 @@
 package PracticeYoutuber.Trees;
 
+/**
+ * T: O(m+n)
+ * S: O(1)
+ */
 public class MergeTwoSortedLists {
     public class ListNode {
         int val;
