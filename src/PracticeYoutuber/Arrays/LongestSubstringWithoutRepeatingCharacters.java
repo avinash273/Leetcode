@@ -36,7 +36,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
     /**
      * T: O(n)
      * S: O(n)
-     * use int[]
+     * use int[26] array to store char positions
      */
     class Solution2 {
         public int lengthOfLongestSubstring(String s) {
