@@ -1,6 +1,6 @@
 package PracticeYoutuber.Arrays;
 
-import java.util.HashMap;
+import java.util.*;
 import java.util.HashSet;
 
 /**
