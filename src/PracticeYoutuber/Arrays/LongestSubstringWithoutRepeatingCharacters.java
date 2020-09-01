@@ -6,7 +6,6 @@ import java.util.HashSet;
 /**
  * T: O(n^2)
  * S: O(n)
- * bad solution
  */
 public class LongestSubstringWithoutRepeatingCharacters {
     class Solution {
