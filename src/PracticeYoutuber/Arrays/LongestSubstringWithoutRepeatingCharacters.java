@@ -1,7 +1,6 @@
 package PracticeYoutuber.Arrays;
 
-import java.util.HashMap;
-import java.util.HashSet;
+import java.util.*;
 
 /**
  * T: O(n^2)
