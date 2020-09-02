@@ -24,6 +24,10 @@ public class jewelsStones {
         }
     }
 
+    /**
+     * T: O(s+j)
+     * S: O(j)
+     */
     class Solution2 {
         public int numJewelsInStones(String J, String S) {
             HashSet<Character> jewels = new HashSet<>();
