@@ -1,9 +1,10 @@
 package PracticeYoutuber.Arrays;
 
+import java.util.HashSet;
+
 /**
  * T: O(s+j)
  * S: O(1)
- *
  */
 public class jewelsStones {
     class Solution {
@@ -17,6 +18,23 @@ public class jewelsStones {
 
             for (char each : S.toCharArray()) {
                 if (jewelMap[each] > 0)
+                    result++;
+            }
+            return result;
+        }
+    }
+
+    class Solution2 {
+        public int numJewelsInStones(String J, String S) {
+            HashSet<Character> jewels = new HashSet<>();
+
+            for (char jewel : J.toCharArray())
+                jewels.add(jewel);
+
+            int result = 0;
+
+            for (char each : S.toCharArray()) {
+                if (jewels.contains(each))
                     result++;
             }
             return result;
