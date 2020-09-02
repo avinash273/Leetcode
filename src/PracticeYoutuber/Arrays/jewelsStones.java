@@ -1,5 +1,10 @@
 package PracticeYoutuber.Arrays;
 
+/**
+ * T: O(s+j)
+ * S: O(1)
+ *
+ */
 public class jewelsStones {
     class Solution {
         public int numJewelsInStones(String J, String S) {
