@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 /**
  * T: O(s+j)
- * S: O(1)
+ * S: O(1) ~ O(128)
  */
 public class jewelsStones {
     class Solution {
