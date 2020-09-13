@@ -2,6 +2,10 @@ package PracticeYoutuber.Trees;
 
 import java.util.HashMap;
 
+/**
+ * T: O(1)
+ * S: O(n)
+ */
 public class LRUCacheDo {
     class LRUCache {
 
