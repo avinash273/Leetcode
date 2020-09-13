@@ -3,7 +3,10 @@ package PracticeYoutuber.Arrays;
 import java.util.HashMap;
 import java.util.PriorityQueue;
 
-
+/**
+ * T: O(n log n)
+ * S: O(n)
+ */
 public class ReorganizeString {
 
     class Solution {
