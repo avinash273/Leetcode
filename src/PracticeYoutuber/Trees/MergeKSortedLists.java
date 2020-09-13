@@ -51,19 +51,19 @@ public class MergeKSortedLists {
     /**
      * Definition for singly-linked list.
      * public class ListNode {
-     *     int val;
-     *     ListNode next;
-     *     ListNode() {}
-     *     ListNode(int val) { this.val = val; }
-     *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+     * int val;
+     * ListNode next;
+     * ListNode() {}
+     * ListNode(int val) { this.val = val; }
+     * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
      * }
      */
     class Solution2 {
         public ListNode mergeKLists(ListNode[] lists) {
             PriorityQueue<Integer> minHeap = new PriorityQueue<>();
 
-            for(ListNode node : lists){
-                while(node != null){
+            for (ListNode node : lists) {
+                while (node != null) {
                     minHeap.add(node.val);
                     node = node.next;
                 }
@@ -72,7 +72,29 @@ public class MergeKSortedLists {
             ListNode head = new ListNode(-1);
             ListNode dummy = head;
 
-            while(!minHeap.isEmpty()){
+            while (!minHeap.isEmpty()) {
+                head.next = new ListNode(minHeap.remove());
+                head = head.next;
+            }
+            return dummy.next;
+        }
+    }
+
+    class Solution3 {
+        public ListNode mergeKLists(ListNode[] lists) {
+            PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+
+            for (ListNode list : lists) {
+                while (list != null) {
+                    minHeap.add(list.val);
+                    list = list.next;
+                }
+            }
+
+            ListNode head = new ListNode();
+            ListNode dummy = head;
+
+            while (!minHeap.isEmpty()) {
                 head.next = new ListNode(minHeap.remove());
                 head = head.next;
             }
