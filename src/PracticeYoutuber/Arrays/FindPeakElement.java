@@ -1,5 +1,9 @@
 package PracticeYoutuber.Arrays;
 
+/**
+ * T: O(n)
+ * S: O(1)
+ */
 public class FindPeakElement {
     class Solution {
         public int findPeakElement(int[] nums) {
