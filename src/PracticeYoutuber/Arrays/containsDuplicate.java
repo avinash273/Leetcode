@@ -2,6 +2,10 @@ package PracticeYoutuber.Arrays;
 
 import java.util.HashSet;
 
+/**
+ * T: O(n)
+ * S: O(n)
+ */
 public class containsDuplicate {
     class Solution {
         public boolean containsDuplicate(int[] nums) {
