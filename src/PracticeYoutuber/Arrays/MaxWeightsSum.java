@@ -16,7 +16,7 @@ public class MaxWeightsSum{
 
 
         while (left < right){
-            if()
+            //do something
         }
         return 1;
     }
