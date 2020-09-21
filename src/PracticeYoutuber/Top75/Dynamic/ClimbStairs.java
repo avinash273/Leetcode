@@ -1,5 +1,9 @@
 package PracticeYoutuber.Top75.Dynamic;
 
+/**
+ * T: O(n)
+ * S: O(n)
+ */
 public class ClimbStairs {
     class Solution {
         public int climbStairs(int n) {
