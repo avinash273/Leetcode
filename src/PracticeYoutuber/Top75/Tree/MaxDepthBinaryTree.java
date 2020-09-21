@@ -2,6 +2,10 @@ package PracticeYoutuber.Top75.Tree;
 
 public class MaxDepthBinaryTree {
 
+    /**
+     * T: O(n)
+     * S: O(n) best case in balanced tree will be O(log n)
+     */
     public class TreeNode {
         int val;
         TreeNode left;
