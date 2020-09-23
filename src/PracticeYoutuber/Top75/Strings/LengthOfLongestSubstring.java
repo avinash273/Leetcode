@@ -2,6 +2,10 @@ package PracticeYoutuber.Top75.Strings;
 
 import java.util.HashSet;
 
+/**
+ * T: O(n^2)
+ * S: O(1)
+ */
 public class LengthOfLongestSubstring {
     class Solution {
         public int lengthOfLongestSubstring(String s) {
