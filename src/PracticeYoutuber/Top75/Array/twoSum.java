@@ -5,7 +5,6 @@ import java.util.HashMap;
 /**
  * T: O(n)
  * S: O(n)
- * also
  */
 public class twoSum {
     class Solution {
