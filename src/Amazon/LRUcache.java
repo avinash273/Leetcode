@@ -5,6 +5,7 @@ import java.util.Map;
 
 /**
  * very imp problem need to redo again
+ * i was asked this question during my amazon interview
  */
 public class LRUcache {
     class LRUCache {
