@@ -76,6 +76,13 @@ public class LRUcache {
             Node prev;
             Node next;
         }
+
+        class Node2 {
+            int key;
+            int val;
+            Node prev;
+            Node next;
+        }
     }
 
 /**
