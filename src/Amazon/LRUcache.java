@@ -77,14 +77,6 @@ public class LRUcache {
             Node next;
         }
 
-        class Node2 {
-            int key;
-            int val;
-            Node prev;
-            Node next;
-        }
-    }
-
 /**
  * Your LRUCache object will be instantiated and called as such:
  * LRUCache obj = new LRUCache(capacity);
