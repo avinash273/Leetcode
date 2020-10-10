@@ -4,8 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * avinash shanker
  * very imp problem need to redo again
  * i was asked this question during my amazon interview
+ * I need to schedule to do this again
  */
 public class LRUcache {
     class LRUCache {
@@ -56,7 +58,7 @@ public class LRUcache {
 
         public void add(Node node) {
             Node headNext = head.next;
-            head.next = node;
+            head.next = node;,
             node.prev = head;
             node.next = headNext;
             headNext.prev = node;
