@@ -58,7 +58,7 @@ public class LRUcache {
 
         public void add(Node node) {
             Node headNext = head.next;
-            head.next = node;,
+            head.next = node;
             node.prev = head;
             node.next = headNext;
             headNext.prev = node;
