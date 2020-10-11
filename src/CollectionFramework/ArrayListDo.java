@@ -2,6 +2,8 @@ package CollectionFramework;
 
 import java.util.*;
 
+//need to redo collection frameworks
+
 public class ArrayListDo {
     ArrayList implementArrayList() {
         ArrayList<String> list = new ArrayList<String>();
