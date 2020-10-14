@@ -2,6 +2,10 @@ package YoutuberKevin;
 
 import java.util.Stack;
 
+/**
+ * T: O(n)
+ * S: O(n)
+ */
 public class ValidParantheses {
     class Solution {
         public boolean isValid(String s) {
