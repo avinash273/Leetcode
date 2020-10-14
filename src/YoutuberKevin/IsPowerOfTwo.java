@@ -1,5 +1,9 @@
 package YoutuberKevin;
 
+/**
+ * T: O(1)
+ * S: O(1)
+ */
 public class IsPowerOfTwo {
     class Solution {
         public boolean isPowerOfTwo(int n) {
