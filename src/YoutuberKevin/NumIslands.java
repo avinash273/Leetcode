@@ -1,5 +1,9 @@
 package YoutuberKevin;
 
+/**
+ * T: O(mn)
+ * S: O(mn)
+ */
 public class NumIslands {
     class Solution {
         public int numIslands(char[][] grid) {
