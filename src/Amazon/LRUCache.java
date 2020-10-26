@@ -2,6 +2,10 @@ package Amazon;
 
 import java.util.HashMap;
 
+/**
+ * T: O(1)
+ * S: O(n)
+ */
 class LRUCache {
     final Node head = new Node();
     final Node tail = new Node();
