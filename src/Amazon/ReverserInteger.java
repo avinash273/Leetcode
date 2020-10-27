@@ -3,6 +3,8 @@ package Amazon;
 /**
  * T: O(log x)
  * S: O(1)
+ * if ((newResult - tail) / 10 != result) return 0;
+ * this line is to handle overflow of interget like 123..9 to 9..321
  */
 public class ReverserInteger {
     class Solution {
