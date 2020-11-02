@@ -33,4 +33,34 @@ public class GroupAnagrams {
             return new ArrayList(map.values());
         }
     }
+
+    /**
+     * T: O(n k log k)
+     * S: O(n)
+     */
+    class Solution2 {
+        public List<List<String>> groupAnagrams(String[] strs) {
+            List<List<String>> result = new ArrayList<>();
+            HashMap<String, Integer> map = new HashMap<>();
+
+            if(strs == null || strs.length == 0) return result;
+            int i = 0;
+            for(String each : strs){
+                char[] unSortWord =  each.toCharArray();
+                Arrays.sort(unSortWord);
+                String sortWord = new String(unSortWord);
+
+                if(map.containsKey(sortWord)){
+                    result.get(map.get(sortWord)).add(each);
+                }
+                else{
+                    map.put(sortWord, result.size());
+                    List<String> current = new ArrayList<>();
+                    current.add(each);
+                    result.add(current);
+                }
+            }
+            return result;
+        }
+    }
 }
