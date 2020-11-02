@@ -2,7 +2,10 @@ package Amazon;
 
 import java.util.PriorityQueue;
 
-
+/**
+ * T: O(n log k)
+ * S: O(n)
+ */
 class MergeKSortedLists {
     public class ListNode {
         int val;
