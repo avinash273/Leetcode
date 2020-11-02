@@ -37,6 +37,8 @@ public class GroupAnagrams {
     /**
      * T: O(n k log k)
      * S: O(n)
+     *  * n -> words in str array
+     *  * k -> max size of words
      */
     class Solution2 {
         public List<List<String>> groupAnagrams(String[] strs) {
