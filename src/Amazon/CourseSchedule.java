@@ -2,6 +2,10 @@ package Amazon;
 
 import java.util.Stack;
 
+/**
+ * T: O(V + E)
+ * S: O(V + E)
+ */
 public class CourseSchedule {
     class Solution {
         public boolean canFinish(int numCourses, int[][] prerequisites) {
