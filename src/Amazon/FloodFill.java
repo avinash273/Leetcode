@@ -2,7 +2,7 @@ package Amazon;
 
 /**
  * T: O(m*n)
- * S: O(mn)
+ * S: O(m*n)
  */
 public class FloodFill {
     class Solution {
