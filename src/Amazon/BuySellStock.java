@@ -1,5 +1,9 @@
 package Amazon;
 
+/**
+ * T: O(n)
+ * S: O(1)
+ */
 public class BuySellStock {
     class Solution {
         public int maxProfit(int[] prices) {
