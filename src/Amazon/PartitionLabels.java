@@ -3,6 +3,10 @@ package Amazon;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * T: O(n)
+ * S: O(1)
+ */
 public class PartitionLabels {
     class Solution {
         public List<Integer> partitionLabels(String S) {
