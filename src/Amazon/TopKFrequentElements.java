@@ -3,6 +3,10 @@ package Amazon;
 import java.util.HashMap;
 import java.util.PriorityQueue;
 
+/**
+ * T: O(n log k)
+ * S: O(n + k)
+ */
 public class TopKFrequentElements {
     class Solution {
         public int[] topKFrequent(int[] nums, int k) {
