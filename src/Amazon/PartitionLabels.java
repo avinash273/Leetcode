@@ -27,6 +27,7 @@ public class PartitionLabels {
                 while (j < end) {
                     end = Math.max(end, lastFound[S.charAt(j++) - 'a']);
                 }
+                //Step5: getting the partition range and adding 1 for zero index compensation
                 partition.add(j - i + 1);
                 i = j + 1;
             }
