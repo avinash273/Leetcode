@@ -4,7 +4,6 @@ import java.util.*;
 
 /**
  * very imp and hard problem
- * Need to redo this atleast twice
  * T: O(M^2 N)
  * S: O(M^2 N)
  * M is the length of each word and
