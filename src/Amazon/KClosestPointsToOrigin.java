@@ -5,6 +5,7 @@ import java.util.PriorityQueue;
 /**
  * T: O(n log k)
  * S: O(k)
+ *
  */
 public class KClosestPointsToOrigin {
     class Solution {
