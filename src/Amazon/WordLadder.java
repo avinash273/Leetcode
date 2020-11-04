@@ -8,8 +8,8 @@ import java.util.*;
  * M is the length of each word and
  * N is the total number of words in the input word list.
  */
+//https://www.youtube.com/watch?v=PeyYhb8lJJU&ab_channel=AmellPeralta
 public class WordLadder {
-    //https://www.youtube.com/watch?v=PeyYhb8lJJU&ab_channel=AmellPeralta
     class Solution {
         public int ladderLength(String beginWord, String endWord, List<String> wordList) {
             Set<String> wordSet = new HashSet<>(wordList);
