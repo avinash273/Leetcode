@@ -7,6 +7,7 @@ import java.util.Queue;
 
 /**
  * T: O(n)
+ * S: O(n)
  */
 public class BinaryTreeZigZagLevelOrderBFS {
 
