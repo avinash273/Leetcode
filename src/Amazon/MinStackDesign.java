@@ -4,6 +4,7 @@ import java.util.Stack;
 
 /**
  * T: O(1)
+ * S: O(n)
  */
 public class MinStackDesign {
     class MinStack {
