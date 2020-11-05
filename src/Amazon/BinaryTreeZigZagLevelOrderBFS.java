@@ -16,6 +16,9 @@ public class BinaryTreeZigZagLevelOrderBFS {
         TreeNode left;
         TreeNode right;
 
+        TreeNode() {
+        }
+
         TreeNode(int val) {
             this.val = val;
         }
