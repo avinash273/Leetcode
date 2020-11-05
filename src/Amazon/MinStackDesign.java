@@ -5,6 +5,7 @@ import java.util.Stack;
 /**
  * T: O(1)
  * S: O(n)
+ * think simple, not linked list
  */
 public class MinStackDesign {
     class MinStack {
