@@ -2,6 +2,9 @@ package Amazon;
 
 import java.util.Stack;
 
+/**
+ * T: O(1)
+ */
 public class MinStackDesign {
     class MinStack {
         private Stack<Integer> stack = new Stack<>();
