@@ -12,6 +12,7 @@ public class MinStackDesign {
         private Stack<Integer> minStack = new Stack<>();
 
         public MinStack() {
+            //nothing
         }
 
         public void push(int x) {
