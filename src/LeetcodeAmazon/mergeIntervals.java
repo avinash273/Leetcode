@@ -9,7 +9,6 @@ import java.util.*;
  *
  *
  *
- *
  */
 public class mergeIntervals {
     class Solution {
