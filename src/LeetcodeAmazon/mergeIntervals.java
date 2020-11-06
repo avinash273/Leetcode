@@ -7,7 +7,6 @@ import java.util.*;
  * S: O(1)
  *
  *
- *
  */
 public class mergeIntervals {
     class Solution {
