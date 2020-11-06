@@ -5,6 +5,7 @@ import java.util.*;
 /**
  * T: O(n)
  * S: O(1)
+ * want to do this problem again!
  */
 public class mergeIntervals {
     class Solution {
