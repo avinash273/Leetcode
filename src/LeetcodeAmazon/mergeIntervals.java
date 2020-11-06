@@ -7,6 +7,7 @@ import java.util.List;
 /**
  * T: O(n)
  * S: O(1)
+ * wasted today!
  */
 public class mergeIntervals {
     class Solution {
