@@ -20,6 +20,4 @@ public class MaximumSubarray {
             return maxSum;
         }
     }
-
-
 }
