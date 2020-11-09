@@ -6,10 +6,6 @@ package Amazon;
  *
  *
  *
- *
- *
- *
- *
  */
 public class MaximumSubarray {
     class Solution {
