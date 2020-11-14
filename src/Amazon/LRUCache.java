@@ -4,23 +4,8 @@ import java.util.HashMap;
 
 /**
  * T: O(1)
- *
- *
- * 3
- * 4
- * 5
- * 6
- * 7
- * 8
- * 9
- * 10
- * 11
- * 12
- * 13
- * 14
- *
- *
  * S: O(n)
+ *
  */
 class LRUCache {
     final Node head = new Node();
