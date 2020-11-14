@@ -10,6 +10,8 @@ import java.util.HashMap;
  * 4
  * 5
  * 6
+ * 7
+ * 8
  * S: O(n)
  */
 class LRUCache {
