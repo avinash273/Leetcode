@@ -58,6 +58,61 @@ class LRUCache {
             nodeMap.put(key, newNode);
             add(newNode);
         }
+        else {
+            if (nodeMap.size() == capacity) {
+                nodeMap.remove(tail.prev.key);
+                remove(tail.prev);
+            }
+            Node newNode = new Node();
+            newNode.key = key;
+            newNode.val = value;
+            nodeMap.put(key, newNode);
+            add(newNode);
+        }
+        else {
+            if (nodeMap.size() == capacity) {
+                nodeMap.remove(tail.prev.key);
+                remove(tail.prev);
+            }
+            Node newNode = new Node();
+            newNode.key = key;
+            newNode.val = value;
+            nodeMap.put(key, newNode);
+            add(newNode);
+        }
+        else {
+            if (nodeMap.size() == capacity) {
+                nodeMap.remove(tail.prev.key);
+                remove(tail.prev);
+            }
+            Node newNode = new Node();
+            newNode.key = key;
+            newNode.val = value;
+            nodeMap.put(key, newNode);
+            add(newNode);
+        }
+        else {
+            if (nodeMap.size() == capacity) {
+                nodeMap.remove(tail.prev.key);
+                remove(tail.prev);
+            }
+            Node newNode = new Node();
+            newNode.key = key;
+            newNode.val = value;
+            nodeMap.put(key, newNode);
+            add(newNode);
+        }
+        else {
+            if (nodeMap.size() == capacity) {
+                nodeMap.remove(tail.prev.key);
+                remove(tail.prev);
+            }
+            Node newNode = new Node();
+            newNode.key = key;
+            newNode.val = value;
+            nodeMap.put(key, newNode);
+            add(newNode);
+        }
     }
 
     //add to the front of the list
