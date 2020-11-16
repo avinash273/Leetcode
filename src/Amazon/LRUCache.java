@@ -14,6 +14,7 @@ class LRUCache {
 
     HashMap<Integer, Node> nodeMap;
     int capacity;
+    int capacity;
 
     class Node {
         int key;
