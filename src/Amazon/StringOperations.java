@@ -1,12 +1,25 @@
 package Amazon;
 
 import java.io.*;
-import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
+import java.util.logging.FileHandler;
+import java.util.logging.Logger;
 
 public class StringOperations {
     public static void main(String[] args){
         try{
+            /**
+             * Handling logs
+             */
+            FileHandler handler = new FileHandler("/Users/avinashshanker/Desktop/CodeWorks/IntelliJ_workspace/Leetcode/src/Amazon/StringOps.log");
+            Logger logger = Logger.getLogger("String Ops");
+            logger.addHandler(handler);
+            logger.warning("warning message");
+            logger.info("info message");
+
+            /**
+             * Handling files
+             */
             String filename = "/Users/avinashshanker/Desktop/CodeWorks/IntelliJ_workspace/Leetcode/src/Amazon/test.txt";
             File file = new File(filename);
             FileInputStream fis = new FileInputStream(file);
