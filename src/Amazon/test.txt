@@ -1,0 +1,4 @@
+BufferedReader is good if you want to read file line by line and process on them.
+It’s good for processing the large file and it supports encoding also.
+BufferedReader is synchronized, so read operations on a BufferedReader can safely be done from multiple threads.
+BufferedReader default buffer size is 8KB.
