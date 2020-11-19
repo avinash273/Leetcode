@@ -8,6 +8,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.HashSet;
 import java.util.Set;
 
+//what are states in java
 public class FileReader {
     public Set<String> userLoggedIn(String path){
         HashSet<String> userSet = new HashSet<>();
