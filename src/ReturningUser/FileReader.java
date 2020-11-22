@@ -12,10 +12,6 @@ import java.util.Set;
 public class FileReader {
     public Set<String> userLoggedIn(String path){
         HashSet<String> userSet = new HashSet<>();
-
-        /**
-         * Read and add to set username
-         */
         try{
             String filename = path;
             File file = new File(filename);
