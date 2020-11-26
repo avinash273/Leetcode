@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.*;
 import java.io.InputStreamReader;
 import java.util.*;
-import java.util.*;
 
 //what are states in java
 public class FileReader {
