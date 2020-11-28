@@ -20,6 +20,7 @@ public class main {
         float currentLoggedInCount = Day2Users.size();
         float perecentReturn;
         //DecimalFormat df = new DecimalFormat("0.00");
+        //more precise
 
         for(String user : Day2Users){
             if(Day1Users.contains(user)){
