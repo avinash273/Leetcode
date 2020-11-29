@@ -10,9 +10,6 @@ public class binaryTreeMaximumPathSum {
         TreeNode left;
         TreeNode right;
 
-        TreeNode() {
-        }
-
         TreeNode(int val) {
             this.val = val;
         }
@@ -21,6 +18,10 @@ public class binaryTreeMaximumPathSum {
             this.val = val;
             this.left = left;
             this.right = right;
+        }
+
+        TreeNode(){
+
         }
     }
 
