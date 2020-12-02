@@ -16,6 +16,8 @@ public class checkCompletenessBinaryTree {
         TreeNode left;
         TreeNode right;
 
+        TreeNode(){}
+
         TreeNode(int val) {
             this.val = val;
         }
