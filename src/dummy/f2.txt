@@ -1,0 +1,5 @@
+Suppose that we have three cards identical in form except that both sides of the first card are colored
+red, both sides of the second card are colored black, and one side of the third card is colored red and
+the other side black. The three cards are mixed up in a hat, and one card is randomly selected and put
+down on the ground. If the upper side of the chosen card is colored red, what is the probability that the
+other side is colored black?
