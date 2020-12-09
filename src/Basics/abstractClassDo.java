@@ -1,5 +1,8 @@
 package Basics;
 
+/**
+ * abstraction in java
+ */
 abstract class Shape{
     abstract void draw();
 }
