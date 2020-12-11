@@ -16,14 +16,6 @@ public class maxArea {
                     left++;
                 }
             }
-
-            while (left < right) {
-                if (height[left] > height[right]) {
-                    maxArea = Math.max(maxArea, height[right] * (right - left));
-                    right--;
-                }
-            }
-
             return maxArea;
         }
     }
