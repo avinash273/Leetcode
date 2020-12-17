@@ -1,5 +1,9 @@
 package prep;
 
+/**
+ * T: O(n)
+ * S: O(1)
+ */
 public class maxArea {
     class Solution {
         public int maxArea(int[] height) {
