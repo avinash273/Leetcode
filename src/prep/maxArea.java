@@ -10,6 +10,7 @@ public class maxArea {
             int left = 0;
             int right = height.length - 1;
             int maxArea = 0;
+            int maxArea2 = 0;
 
             while (left < right) {
                 if (height[left] > height[right]) {
