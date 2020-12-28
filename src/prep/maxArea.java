@@ -19,7 +19,7 @@ public class maxArea {
                     left++;
                 }
             }
-            return maxArea + 1;
+            return maxArea;
         }
     }
 }
