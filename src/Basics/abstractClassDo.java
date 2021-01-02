@@ -17,6 +17,5 @@ public class abstractClassDo {
     void implementAbstractClass(){
         rectangles rectangles = new rectangles();
         rectangles.draw();
-        rectangles.draw();
     }
 }
