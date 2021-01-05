@@ -10,7 +10,6 @@ abstract class Shape{
 class rectangles extends Shape{
     void draw(){
         System.out.println("Drawing Rectangle..");
-        System.out.println("Drawing Rectangle Again!");
     }
 }
 
