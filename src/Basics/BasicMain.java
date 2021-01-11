@@ -38,7 +38,6 @@ public class BasicMain {
 
         System.out.println(String.format("id = %08.2f", 423.147));
         final Set<String> set = new HashSet<>(Arrays.asList("avi", "akash"));
-//        set.remove("avi");
         System.out.println(set.contains("avi"));
     }
 }
