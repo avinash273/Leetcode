@@ -1,13 +1,18 @@
 package Basics;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
+
+import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
-import static org.junit.Assert.*;
-import org.junit.Test;
 
-public class BasicMain {
+
+class BasicMainTest {
+    @Test
     public static void main(String[] args) {
 //        //Simple switch example
         SwitchDo SwitchDo = new SwitchDo();
@@ -40,7 +45,7 @@ public class BasicMain {
 
         System.out.println(String.format("id = %08.2f", 423.147));
         final Set<String> set = new HashSet<>(Arrays.asList("avi", "akash"));
-        assertEquals(1,1);
+        assertEquals(1, 1);
 
     }
 }

@@ -3,6 +3,8 @@ package Apple;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import static org.junit.Assert.*;
+import org.junit.Test;
 
 public class ThreeSum {
     class Solution {
@@ -11,7 +13,8 @@ public class ThreeSum {
             List<List<Integer>> res = new ArrayList<>();
             for (int i = 0; i < nums.length && nums[i] <= 0; i++) {
                 if (i == 0 || nums[i - 1] != nums[i]) {
-                    continue;
+//                    continue;
+                    assertEquals(1, 1);
                 }
             }
             return res;
