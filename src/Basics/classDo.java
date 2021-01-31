@@ -33,6 +33,7 @@ public class classDo {
         System.out.println("\nArea Calculations for objects");
         Rectangle1.calculateArea();
         Rectangle2.calculateArea();
+        Rectangle2.calculateArea();
     }
 
 }
