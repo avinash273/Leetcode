@@ -1,5 +1,8 @@
 package Leetcode;
-
+/**
+ * T: O(n)
+ * S: O(n)
+ */
 public class DefangingAnIPAddress {
     class Solution {
         public String defangIPaddr(String address) {
