@@ -1,0 +1,1000 @@
+1
+Walmart
+2
+Amazon
+3
+Exxon Mobil
+4
+Apple
+5
+CVS Health
+6
+Berkshire Hathaway
+7
+UnitedHealth Group
+8
+McKesson
+9
+AT&T
+10
+AmerisourceBergen
+11
+Alphabet
+12
+Ford Motor
+13
+Cigna
+14
+Costco Wholesale
+15
+Chevron
+16
+Cardinal Health
+17
+JPMorgan Chase
+18
+General Motors
+19
+Walgreens Boots Alliance
+20
+Verizon Communications
+21
+Microsoft
+22
+Marathon Petroleum
+23
+Kroger
+24
+Fannie Mae
+25
+Bank of America
+26
+Home Depot
+27
+Phillips 66
+28
+Comcast
+29
+Anthem
+30
+Wells Fargo
+31
+Citigroup
+32
+Valero Energy
+33
+General Electric
+34
+Dell Technologies
+35
+Johnson & Johnson
+36
+State Farm Insurance
+37
+Target
+38
+IBM
+39
+Raytheon Technologies
+40
+Boeing
+41
+Freddie Mac
+42
+Centene
+43
+UPS
+44
+Lowe's
+45
+Intel
+46
+Facebook
+47
+FedEx
+48
+MetLife
+49
+Walt Disney
+50
+Procter & Gamble
+51
+PepsiCo
+52
+Humana
+53
+Prudential Financial (U.S.)
+54
+Archer Daniels Midland
+55
+Albertsons
+56
+Sysco
+57
+Lockheed Martin
+58
+HP
+59
+Energy Transfer
+60
+Goldman Sachs Group
+61
+Morgan Stanley
+62
+Caterpillar
+63
+Cisco Systems
+64
+Pfizer
+65
+HCA Healthcare
+66
+American International Group
+67
+American Express
+68
+Delta Air Lines
+69
+Merck
+70
+American Airlines Group
+71
+Charter Communications
+72
+Allstate
+73
+New York Life Insurance
+74
+Nationwide
+75
+Best Buy
+76
+United Airlines Holdings
+77
+Liberty Mutual Insurance Group
+78
+Dow
+79
+Tyson Foods
+80
+TJX
+81
+TIAA
+82
+Oracle
+83
+General Dynamics
+84
+Deere
+85
+Nike
+86
+Progressive
+87
+Publix Super Markets
+88
+Coca-Cola
+89
+Massachusetts Mutual Life
+90
+Tech Data
+91
+World Fuel Services
+92
+Honeywell International
+93
+ConocoPhillips
+94
+USAA
+95
+Exelon
+96
+Northrop Grumman
+97
+Capital One Financial
+98
+Plains GP Holdings
+99
+AbbVie
+100
+StoneX Group
+101
+Enterprise Products Partners
+102
+Northwestern Mutual
+103
+3M
+104
+Abbott Laboratories
+105
+CHS
+106
+Travelers Cos.
+107
+Philip Morris International
+108
+Raytheon
+109
+Hewlett Packard Enterprise
+110
+Arrow Electronics
+111
+ViacomCBS
+112
+Dollar General
+113
+U.S. Bancorp
+114
+Starbucks
+115
+Bristol-Myers Squibb
+116
+US Foods Holding
+117
+Mondelez International
+118
+Paccar
+119
+Thermo Fisher Scientific
+120
+Macy's
+121
+Jabil
+122
+Kraft Heinz
+123
+Duke Energy
+124
+Tesla
+125
+PBF Energy
+126
+Qualcomm
+127
+NGL Energy Partners
+128
+CBRE Group
+129
+Baker Hughes
+130
+Synnex
+131
+Dollar Tree
+132
+Cummins
+133
+United Natural Foods
+134
+Micron Technology
+135
+Amgen
+136
+Penske Automotive Group
+137
+Visa
+138
+Broadcom
+139
+Nucor
+140
+Gilead Sciences
+141
+Southwest Airlines
+142
+Halliburton
+143
+Lumen Technologies
+144
+International Paper
+145
+Eli Lilly
+146
+Aflac
+147
+Lennar
+148
+Occidental Petroleum
+149
+Union Pacific
+150
+Rite Aid
+151
+PNC Financial Services Group
+152
+DuPont
+153
+Southern Company
+154
+AutoNation
+155
+DXC Technology
+156
+McDonald's
+157
+Marriott International
+158
+ManpowerGroup
+159
+Bank of New York Mellon
+160
+Hartford Financial Services Group
+161
+Danaher
+162
+Whirlpool
+163
+AECOM
+164
+Netflix
+165
+Kohl's
+166
+Lear
+167
+Altria Group
+168
+Performance Food Group
+169
+Avnet
+170
+Synchrony Financial
+171
+Genuine Parts
+172
+NextEra Energy
+173
+CarMax
+174
+Tenet Healthcare
+175
+Kimberly-Clark
+176
+Emerson Electric
+177
+WestRock
+178
+CDW
+179
+Jones Lang LaSalle (JLL)
+180
+Sherwin-Williams
+181
+Fluor
+182
+PayPal Holdings
+183
+D.R. Horton
+184
+HollyFrontier
+185
+Tenneco
+186
+EOG Resources
+187
+BD
+188
+Lincoln National
+189
+PG&E
+190
+Salesforce
+191
+Mastercard
+192
+General Mills
+193
+Molina Healthcare
+194
+Cognizant Technology Solutions
+195
+Marsh & McLennan
+196
+XPO Logistics
+197
+Dominion Energy
+198
+Western Digital
+199
+Gap
+200
+Aramark
+101
+Enterprise Products Partners
+102
+Northwestern Mutual
+103
+3M
+104
+Abbott Laboratories
+105
+CHS
+106
+Travelers Cos.
+107
+Philip Morris International
+108
+Raytheon
+109
+Hewlett Packard Enterprise
+110
+Arrow Electronics
+111
+ViacomCBS
+112
+Dollar General
+113
+U.S. Bancorp
+114
+Starbucks
+115
+Bristol-Myers Squibb
+116
+US Foods Holding
+117
+Mondelez International
+118
+Paccar
+119
+Thermo Fisher Scientific
+120
+Macy's
+121
+Jabil
+122
+Kraft Heinz
+123
+Duke Energy
+124
+Tesla
+125
+PBF Energy
+126
+Qualcomm
+127
+NGL Energy Partners
+128
+CBRE Group
+129
+Baker Hughes
+130
+Synnex
+131
+Dollar Tree
+132
+Cummins
+133
+United Natural Foods
+134
+Micron Technology
+135
+Amgen
+136
+Penske Automotive Group
+137
+Visa
+138
+Broadcom
+139
+Nucor
+140
+Gilead Sciences
+141
+Southwest Airlines
+142
+Halliburton
+143
+Lumen Technologies
+144
+International Paper
+145
+Eli Lilly
+146
+Aflac
+147
+Lennar
+148
+Occidental Petroleum
+149
+Union Pacific
+150
+Rite Aid
+151
+PNC Financial Services Group
+152
+DuPont
+153
+Southern Company
+154
+AutoNation
+155
+DXC Technology
+156
+McDonald's
+157
+Marriott International
+158
+ManpowerGroup
+159
+Bank of New York Mellon
+160
+Hartford Financial Services Group
+161
+Danaher
+162
+Whirlpool
+163
+AECOM
+164
+Netflix
+165
+Kohl's
+166
+Lear
+167
+Altria Group
+168
+Performance Food Group
+169
+Avnet
+170
+Synchrony Financial
+171
+Genuine Parts
+172
+NextEra Energy
+173
+CarMax
+174
+Tenet Healthcare
+175
+Kimberly-Clark
+176
+Emerson Electric
+177
+WestRock
+178
+CDW
+179
+Jones Lang LaSalle (JLL)
+180
+Sherwin-Williams
+181
+Fluor
+182
+PayPal Holdings
+183
+D.R. Horton
+184
+HollyFrontier
+185
+Tenneco
+186
+EOG Resources
+187
+BD
+188
+Lincoln National
+189
+PG&E
+190
+Salesforce
+191
+Mastercard
+192
+General Mills
+193
+Molina Healthcare
+194
+Cognizant Technology Solutions
+195
+Marsh & McLennan
+196
+XPO Logistics
+197
+Dominion Energy
+198
+Western Digital
+199
+Gap
+200
+Aramark
+101
+Enterprise Products Partners
+102
+Northwestern Mutual
+103
+3M
+104
+Abbott Laboratories
+105
+CHS
+106
+Travelers Cos.
+107
+Philip Morris International
+108
+Raytheon
+109
+Hewlett Packard Enterprise
+110
+Arrow Electronics
+111
+ViacomCBS
+112
+Dollar General
+113
+U.S. Bancorp
+114
+Starbucks
+115
+Bristol-Myers Squibb
+116
+US Foods Holding
+117
+Mondelez International
+118
+Paccar
+119
+Thermo Fisher Scientific
+120
+Macy's
+121
+Jabil
+122
+Kraft Heinz
+123
+Duke Energy
+124
+Tesla
+125
+PBF Energy
+126
+Qualcomm
+127
+NGL Energy Partners
+128
+CBRE Group
+129
+Baker Hughes
+130
+Synnex
+131
+Dollar Tree
+132
+Cummins
+133
+United Natural Foods
+134
+Micron Technology
+135
+Amgen
+136
+Penske Automotive Group
+137
+Visa
+138
+Broadcom
+139
+Nucor
+140
+Gilead Sciences
+141
+Southwest Airlines
+142
+Halliburton
+143
+Lumen Technologies
+144
+International Paper
+145
+Eli Lilly
+146
+Aflac
+147
+Lennar
+148
+Occidental Petroleum
+149
+Union Pacific
+150
+Rite Aid
+151
+PNC Financial Services Group
+152
+DuPont
+153
+Southern Company
+154
+AutoNation
+155
+DXC Technology
+156
+McDonald's
+157
+Marriott International
+158
+ManpowerGroup
+159
+Bank of New York Mellon
+160
+Hartford Financial Services Group
+161
+Danaher
+162
+Whirlpool
+163
+AECOM
+164
+Netflix
+165
+Kohl's
+166
+Lear
+167
+Altria Group
+168
+Performance Food Group
+169
+Avnet
+170
+Synchrony Financial
+171
+Genuine Parts
+172
+NextEra Energy
+173
+CarMax
+174
+Tenet Healthcare
+175
+Kimberly-Clark
+176
+Emerson Electric
+177
+WestRock
+178
+CDW
+179
+Jones Lang LaSalle (JLL)
+180
+Sherwin-Williams
+181
+Fluor
+182
+PayPal Holdings
+183
+D.R. Horton
+184
+HollyFrontier
+185
+Tenneco
+186
+EOG Resources
+187
+BD
+188
+Lincoln National
+189
+PG&E
+190
+Salesforce
+191
+Mastercard
+192
+General Mills
+193
+Molina Healthcare
+194
+Cognizant Technology Solutions
+195
+Marsh & McLennan
+196
+XPO Logistics
+197
+Dominion Energy
+198
+Western Digital
+199
+Gap
+200
+Aramark
+101
+Enterprise Products Partners
+102
+Northwestern Mutual
+103
+3M
+104
+Abbott Laboratories
+105
+CHS
+106
+Travelers Cos.
+107
+Philip Morris International
+108
+Raytheon
+109
+Hewlett Packard Enterprise
+110
+Arrow Electronics
+111
+ViacomCBS
+112
+Dollar General
+113
+U.S. Bancorp
+114
+Starbucks
+115
+Bristol-Myers Squibb
+116
+US Foods Holding
+117
+Mondelez International
+118
+Paccar
+119
+Thermo Fisher Scientific
+120
+Macy's
+121
+Jabil
+122
+Kraft Heinz
+123
+Duke Energy
+124
+Tesla
+125
+PBF Energy
+126
+Qualcomm
+127
+NGL Energy Partners
+128
+CBRE Group
+129
+Baker Hughes
+130
+Synnex
+131
+Dollar Tree
+132
+Cummins
+133
+United Natural Foods
+134
+Micron Technology
+135
+Amgen
+136
+Penske Automotive Group
+137
+Visa
+138
+Broadcom
+139
+Nucor
+140
+Gilead Sciences
+141
+Southwest Airlines
+142
+Halliburton
+143
+Lumen Technologies
+144
+International Paper
+145
+Eli Lilly
+146
+Aflac
+147
+Lennar
+148
+Occidental Petroleum
+149
+Union Pacific
+150
+Rite Aid
+151
+PNC Financial Services Group
+152
+DuPont
+153
+Southern Company
+154
+AutoNation
+155
+DXC Technology
+156
+McDonald's
+157
+Marriott International
+158
+ManpowerGroup
+159
+Bank of New York Mellon
+160
+Hartford Financial Services Group
+161
+Danaher
+162
+Whirlpool
+163
+AECOM
+164
+Netflix
+165
+Kohl's
+166
+Lear
+167
+Altria Group
+168
+Performance Food Group
+169
+Avnet
+170
+Synchrony Financial
+171
+Genuine Parts
+172
+NextEra Energy
+173
+CarMax
+174
+Tenet Healthcare
+175
+Kimberly-Clark
+176
+Emerson Electric
+177
+WestRock
+178
+CDW
+179
+Jones Lang LaSalle (JLL)
+180
+Sherwin-Williams
+181
+Fluor
+182
+PayPal Holdings
+183
+D.R. Horton
+184
+HollyFrontier
+185
+Tenneco
+186
+EOG Resources
+187
+BD
+188
+Lincoln National
+189
+PG&E
+190
+Salesforce
+191
+Mastercard
+192
+General Mills
+193
+Molina Healthcare
+194
+Cognizant Technology Solutions
+195
+Marsh & McLennan
+196
+XPO Logistics
+197
+Dominion Energy
+198
+Western Digital
+199
+Gap
+200
+Aramark
