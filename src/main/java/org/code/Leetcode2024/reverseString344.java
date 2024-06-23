@@ -1,7 +1,8 @@
 package org.code.Leetcode2024;
 
 public class reverseString344 {
-    public void reverseString(char[] s) {
+    public String reverseString(String string) {
+        char[] s = string.toCharArray();
         int left = 0;
         int right = s.length - 1;
         char temp;
@@ -13,5 +14,6 @@ public class reverseString344 {
             left++;
             right--;
         }
+        return new String(s);
     }
 }

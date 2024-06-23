@@ -7,7 +7,6 @@ public class isAnagram242 {
         if(s.length() != t.length()) return false;
 
         HashMap<Integer, Integer> map = new HashMap<>();
-        System.out.println(s.chars());
 
         s.chars().forEach(ch -> map.put(ch, (map.getOrDefault(ch, 0)) + 1));
         t.chars().forEach(ch -> map.put(ch, (map.getOrDefault(ch, 0)) - 1));
