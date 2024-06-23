@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-11-18T21:25:58.692223Z</date>
+  <millis>1605734758692</millis>
+  <nanos>223000</nanos>
+  <sequence>0</sequence>
+  <logger>String Ops</logger>
+  <level>WARNING</level>
+  <class>Amazon.StringOperations</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>warning message</message>
+</record>
+<record>
+  <date>2020-11-18T21:25:58.735710Z</date>
+  <millis>1605734758735</millis>
+  <nanos>710000</nanos>
+  <sequence>1</sequence>
+  <logger>String Ops</logger>
+  <level>INFO</level>
+  <class>Amazon.StringOperations</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>info message</message>
+</record>
+</log>
