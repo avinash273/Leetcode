@@ -3,7 +3,7 @@ package org.code.Leetcode2024;
 import java.util.Arrays;
 import java.util.HashSet;
 
-public class containsDuplicate217 {
+public class ContainsDuplicate217 {
     public boolean containsDuplicateStream(int[] nums) {
         return Arrays.stream(nums).distinct().count() != nums.length;
     }

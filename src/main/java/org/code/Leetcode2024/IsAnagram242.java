@@ -2,7 +2,7 @@ package org.code.Leetcode2024;
 
 import java.util.HashMap;
 
-public class isAnagram242 {
+public class IsAnagram242 {
     public boolean isAnagramSol1(String s, String t) {
         if(s.length() != t.length()) return false;
 

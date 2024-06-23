@@ -1,6 +1,6 @@
 package org.code.Leetcode2024;
 
-public class reverseString344 {
+public class ReverseString344 {
     public String reverseString(String string) {
         char[] s = string.toCharArray();
         int left = 0;

@@ -1,6 +1,6 @@
 package org.code.Leetcode2024;
 
-public class maxProfit121 {
+public class MaxProfit121 {
     public int maxProfit(int[] prices) {
         int min = Integer.MAX_VALUE;
         int max = 0;

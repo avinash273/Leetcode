@@ -2,7 +2,7 @@ package org.code.Leetcode2024;
 
 import java.util.HashMap;
 
-public class firstUniqChar387 {
+public class FirstUniqChar387 {
     public int firstUniqChar(String s) {
         HashMap<Character, Integer> map = new HashMap<>();
 
