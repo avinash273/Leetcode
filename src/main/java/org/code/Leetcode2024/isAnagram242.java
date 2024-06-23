@@ -12,7 +12,7 @@ public class isAnagram242 {
         t.chars().forEach(ch -> map.put(ch, (map.getOrDefault(ch, 0)) - 1));
 
         return map.values()
-                .stream()
+                .parallelStream()
                 .allMatch(v -> v == 0);
     }
 

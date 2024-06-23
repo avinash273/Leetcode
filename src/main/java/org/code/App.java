@@ -37,5 +37,11 @@ public class App
          */
         containsDuplicate217 containsDuplicate = new containsDuplicate217();
         System.out.println(containsDuplicate.containsDuplicateStream(new int[]{1, 1, 2, 3, 3, 4}));
+
+        /**
+         * Single Number XOR
+         */
+        singleNumber136 singleNumber136 = new singleNumber136();
+        System.out.println(singleNumber136.singleNumber(new int[]{1,1,2,3,3}));
     }
 }
