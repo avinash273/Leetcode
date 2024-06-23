@@ -12,7 +12,9 @@ public class isAnagram242 {
         s.chars().forEach(ch -> map.put(ch, (map.getOrDefault(ch, 0)) + 1));
         t.chars().forEach(ch -> map.put(ch, (map.getOrDefault(ch, 0)) - 1));
 
-        return map.values().stream().allMatch(v -> v == 0);
+        return map.values()
+                .stream()
+                .allMatch(v -> v == 0);
     }
 
     public boolean isAnagramSol2(String s, String t) {
