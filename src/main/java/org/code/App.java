@@ -46,5 +46,11 @@ public class App
         SingleNumber136 singleNumber136 = new SingleNumber136();
         System.out.println(singleNumber136.singleNumber(new int[]{1,1,2,3,3}));
         Stack<Character> stack = new Stack<>();
+
+        /**
+         * ValidParentheses Stack
+         */
+        ValidParentheses validParentheses = new ValidParentheses();
+        System.out.println(validParentheses.isValid("()[]{}"));
     }
 }
