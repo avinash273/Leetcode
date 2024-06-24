@@ -1,6 +1,6 @@
 package org.code.Leetcode2024;
 
-public class CheckIsPowerOfTwo {
+public class CheckIsPowerOfTwo231 {
     public boolean isPowerOfTwoLogN(int n) {
         long power = 1;
         while(power < n){

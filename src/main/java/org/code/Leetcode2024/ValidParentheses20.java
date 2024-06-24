@@ -2,7 +2,7 @@ package org.code.Leetcode2024;
 
 import java.util.Stack;
 
-public class ValidParentheses {
+public class ValidParentheses20 {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
 

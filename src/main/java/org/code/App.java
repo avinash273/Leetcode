@@ -50,7 +50,7 @@ public class App
         /**
          * ValidParentheses Stack
          */
-        ValidParentheses validParentheses = new ValidParentheses();
+        ValidParentheses20 validParentheses = new ValidParentheses20();
         System.out.println(validParentheses.isValid("()[]{}"));
     }
 }
