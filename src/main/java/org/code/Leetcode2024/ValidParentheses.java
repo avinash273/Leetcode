@@ -12,10 +12,9 @@ public class ValidParentheses {
             else if(letter == '[') stack.push(']');
             else if(!stack.isEmpty()){
                 if(stack.peek() != letter) return false;
-                stack.pop();
+                else stack.pop();
             }
             else return false;
-
         }
         return stack.isEmpty();
     }
