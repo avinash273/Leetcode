@@ -1,13 +1,12 @@
 package org.code;
+
 import org.code.Leetcode2024.*;
 
 import java.util.Stack;
 
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Main to run all classes" );
+public class App {
+    public static void main(String[] args) {
+        System.out.println("Main to run all classes");
 
         /**
          * isAnagram
@@ -32,7 +31,7 @@ public class App
          * Max Profit
          */
         MaxProfit121 maxProfit121 = new MaxProfit121();
-        System.out.println(maxProfit121.maxProfit(new int[]{7,1,5,3,6,4}));
+        System.out.println(maxProfit121.maxProfit(new int[]{7, 1, 5, 3, 6, 4}));
 
         /**
          * containsDuplicate
@@ -44,13 +43,30 @@ public class App
          * Single Number XOR
          */
         SingleNumber136 singleNumber136 = new SingleNumber136();
-        System.out.println(singleNumber136.singleNumber(new int[]{1,1,2,3,3}));
-        Stack<Character> stack = new Stack<>();
+        System.out.println(singleNumber136.singleNumber(new int[]{1, 1, 2, 3, 3}));
 
         /**
          * ValidParentheses Stack
          */
         ValidParentheses20 validParentheses = new ValidParentheses20();
         System.out.println(validParentheses.isValid("()[]{}"));
+
+        /**
+         * Two Sum
+         */
+        TwoSum1 twoSum = new TwoSum1();
+        int[] num = twoSum.twoSum(new int[]{2, 7, 11, 15}, 9);
+        System.out.println(num[0] + "," + num[1]);
+
+        /**
+         * NumberOfIslands
+         */
+        NumberOfIslands numberOfIslands = new NumberOfIslands();
+        char[][] grid = {{'1', '1', '1', '1', '0'},
+                {'1', '1', '0', '1', '0'},
+                {'1', '1', '0', '0', '0'},
+                {'0', '0', '0', '0', '0'}};
+        System.out.println(numberOfIslands.numIslands(grid));
     }
 }
+
