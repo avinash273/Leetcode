@@ -2,8 +2,6 @@ package org.code;
 
 import org.code.Leetcode2024.*;
 
-import java.util.Stack;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class App {
@@ -63,7 +61,7 @@ public class App {
         /**
          * NumberOfIslands
          */
-        NumberOfIslands numberOfIslands = new NumberOfIslands();
+        NumberOfIslands200 numberOfIslands = new NumberOfIslands200();
         char[][] grid = {{'1', '1', '1', '1', '0'},
                 {'1', '1', '0', '1', '0'},
                 {'1', '1', '0', '0', '0'},
