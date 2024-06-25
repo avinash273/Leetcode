@@ -2,6 +2,8 @@ package org.code;
 import org.code.Leetcode2024.*;
 
 import java.util.Stack;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class App 
 {
@@ -52,5 +54,9 @@ public class App
          */
         ValidParentheses validParentheses = new ValidParentheses();
         System.out.println(validParentheses.isValid("()[]{}"));
+
+        String name ="avinash";
+        System.out.println(new StringBuilder(name).reverse());
+        String reverse = Stream.of(name).map(str -> new StringBuilder(str).reverse()).toString();
     }
 }
