@@ -71,6 +71,12 @@ public class App {
         String name ="avinash";
         System.out.println(new StringBuilder(name).reverse());
         String reverse = Stream.of(name).map(str -> new StringBuilder(str).reverse()).toString();
+
+        /**
+         * BackspaceCompare
+         */
+        BackspaceCompare844 backspaceCompare844 = new BackspaceCompare844();
+        System.out.println("backspaceCompare844: " + backspaceCompare844.backspaceCompare("y#fo##f", "y#f#o##f")) ;
     }
 }
 
