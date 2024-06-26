@@ -77,6 +77,12 @@ public class App {
          */
         BackspaceCompare844 backspaceCompare844 = new BackspaceCompare844();
         System.out.println("backspaceCompare844: " + backspaceCompare844.backspaceCompare("y#fo##f", "y#f#o##f")) ;
+
+        /**
+         * RemoveElement
+         */
+        RemoveElement27 removeElement27 = new RemoveElement27();
+        System.out.println(removeElement27.removeElement(new int[]{3, 2, 2, 3}, 3));
     }
 }
 
