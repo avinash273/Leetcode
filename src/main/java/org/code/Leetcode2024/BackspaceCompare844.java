@@ -1,9 +1,11 @@
 package org.code.Leetcode2024;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.Stack;
 
 public class BackspaceCompare844 {
-    public boolean backspaceCompare(String s, String t) {
+    public boolean backspaceCompare(@NotNull String s, @NotNull  String t) {
         Stack<Character> stackS = new Stack<>();
         Stack<Character> stackT = new Stack<>();
 
