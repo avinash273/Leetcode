@@ -5,6 +5,7 @@ public class RemoveElement27 {
         int left = 0;
         int right = nums.length - 1;;
 
+        //test
         while(left <= right){
             if(nums[left] == val){
                 nums[left] = nums[right--];
