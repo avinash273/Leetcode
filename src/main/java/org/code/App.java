@@ -83,6 +83,8 @@ public class App {
          */
         RemoveElement27 removeElement27 = new RemoveElement27();
         System.out.println(removeElement27.removeElement(new int[]{3, 2, 2, 3}, 3));
+
+
     }
 }
 
