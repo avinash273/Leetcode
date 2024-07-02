@@ -14,9 +14,9 @@ public class MergeAlternately1768 {
             if (i < len1 && j < len2) {
                 sb.append(str1[i++]);
                 sb.append(str2[j++]);
-            } else if (i >= len1 && j < len2) {
+            } else if (i >= len1) {
                 sb.append(str2[j++]);
-            } else if (i < len1 && j >= len2) {
+            } else {
                 sb.append(str1[i++]);
             }
         }
