@@ -17,7 +17,7 @@ public class MergeAlternately1768 {
             } else if (i >= len1) {
                 sb.append(str2[j++]);
             } else {
-                sb.append(str1[i++]);
+                sb.append(str1[i++]);;
             }
         }
 
