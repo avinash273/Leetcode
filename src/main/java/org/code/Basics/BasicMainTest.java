@@ -12,7 +12,6 @@ import java.util.Set;
 
 
 class BasicMainTest {
-    @Test
     public static void main(String[] args) {
 //        //Simple switch example
         SwitchDo SwitchDo = new SwitchDo();
