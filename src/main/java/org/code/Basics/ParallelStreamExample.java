@@ -10,7 +10,7 @@ public class ParallelStreamExample {
 
         Random random = new Random();
 
-        for(double i = 0; i < 100000000; i++) {
+        for(double i = 0; i < 200000000; i++) {
             list.add(random.nextInt(101));
         }
         //System.out.println(list);
