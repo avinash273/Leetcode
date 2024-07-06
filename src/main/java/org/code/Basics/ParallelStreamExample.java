@@ -1,5 +1,8 @@
 package org.code.Basics;
 
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.Logger;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -7,9 +10,11 @@ import java.util.Random;
 import java.util.stream.Collectors;
 
 public class ParallelStreamExample {
+    private static final Logger log = Logger.getLogger(ParallelStreamExample.class);
+
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>(10000);
-
+        BasicConfigurator.configure();
         Random random = new Random();
 
         for(double i = 0; i < 10000; i++) {
@@ -42,6 +47,7 @@ public class ParallelStreamExample {
         List<String> capsName2 = name.stream().map(String::toUpperCase).collect(Collectors.toList());
 
        String test = name.stream().filter(str -> str.contains("x")).findFirst().orElse("Not found");
+       log.info("hello world!");
 
 
 
