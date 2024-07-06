@@ -1,8 +1,10 @@
 package org.code.Basics;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
+import java.util.stream.Collectors;
 
 public class ParallelStreamExample {
     public static void main(String[] args) {
@@ -10,7 +12,7 @@ public class ParallelStreamExample {
 
         Random random = new Random();
 
-        for(double i = 0; i < 200000000; i++) {
+        for(double i = 0; i < 10000; i++) {
             list.add(random.nextInt(101));
         }
         //System.out.println(list);
@@ -30,5 +32,24 @@ public class ParallelStreamExample {
         System.out.println(sum + " " +  (end1 - start1));
         System.out.println(sum2 + " " +  (end2 - start2));
         System.out.println(sum3 + " " +  (end3 - start3));
+
+        /**
+         * Optinal Class
+         */
+
+        List<String> name = Arrays.asList("John", "Jane", "Jack", "Bob");
+        List<String> capsName = name.stream().map(x -> x.toUpperCase()).collect(Collectors.toList());
+        List<String> capsName2 = name.stream().map(String::toUpperCase).collect(Collectors.toList());
+
+       String test = name.stream().filter(str -> str.contains("x")).findFirst().orElse("Not found");
+
+
+
+        /**
+         * :: --> is called Method reference
+         * String::toUpperCase
+         */
+        capsName.forEach(System.out::println);
+
     }
 }
