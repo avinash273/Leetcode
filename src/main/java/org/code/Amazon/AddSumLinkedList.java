@@ -33,6 +33,7 @@ public class AddSumLinkedList {
                 int x = (l1 != null) ? l1.val : 0;
                 int y = (l2 != null) ? l2.val : 0;
                 int sum = x + y + carry;
+                int yu = 0;
 
                 carry = sum / 10;
                 dummy.next = new ListNode(sum % 10);
