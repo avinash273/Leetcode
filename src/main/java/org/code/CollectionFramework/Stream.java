@@ -21,6 +21,9 @@ class Employee {
     public Employee() {
     }
 
+    public Employee(String john, int i, int i1) {
+    }
+
     public int getEmployeeId() {
         return employeeId;
     }

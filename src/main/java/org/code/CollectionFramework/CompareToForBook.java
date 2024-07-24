@@ -35,4 +35,9 @@ public class CompareToForBook {
 
     }
 
+    public static void main(String[] args) {
+        CompareToForBook compareToForBook = new CompareToForBook();
+        compareToForBook.implementStudent();
+    }
+
 }

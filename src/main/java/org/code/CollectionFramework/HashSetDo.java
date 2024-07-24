@@ -12,6 +12,8 @@ public class HashSetDo {
         set.add("three");
         set.add("four");
 
+        for(String str : set)
+
         Iterator itr = set.iterator();
 
         while (itr.hasNext())
