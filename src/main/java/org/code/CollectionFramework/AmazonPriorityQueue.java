@@ -17,14 +17,12 @@ public class AmazonPriorityQueue {
             set.add(num);
         }
 
-
         for(int num : set){
             heap.add(num);
             if(heap.size() > k){
                 heap.remove();
             }
         }
-
         return heap.peek();
 
     }
