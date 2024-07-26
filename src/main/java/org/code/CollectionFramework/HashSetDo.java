@@ -12,9 +12,10 @@ public class HashSetDo {
         set.add("three");
         set.add("four");
 
-        for(String str : set)
-
-        Iterator itr = set.iterator();
+        Iterator<String> itr = null;
+        for (String str : set) {
+        }
+            itr = set.iterator();
 
         while (itr.hasNext())
             System.out.println(itr.next());
@@ -31,7 +32,7 @@ public class HashSetDo {
         HashSet<String> set2 = new HashSet(list);
         Iterator itr2 = set2.iterator();
 
-        while(itr2.hasNext())
-            System.out.println("List from ArrayList: "+itr2.next());
+        while (itr2.hasNext())
+            System.out.println("List from ArrayList: " + itr2.next());
     }
 }
