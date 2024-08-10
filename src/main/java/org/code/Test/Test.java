@@ -10,12 +10,25 @@ public class Test {
         }
     }
 
+    public class TestException extends Exception {
+        private static final long serialVersionUID = 1L;
+        public TestException() {
+            System.out.println("TestException");
+        }
+    }
+
     public static void main(String[] args) {
         try{
             int i = 0;
             Test t = new Test();
             t.foo();
             System.out.println("Finished running");
-        }catch (Exception e){}
+        }catch (Exception e){
+            if(e instanceof TestException){
+                TestException te = (TestException) e;
+                System.out.println(te.getMessage());
+            }
+        }
+
     }
 }

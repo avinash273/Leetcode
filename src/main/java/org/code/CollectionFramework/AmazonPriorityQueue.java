@@ -27,6 +27,7 @@ public class AmazonPriorityQueue {
 
     }
 
+
     public String sortString(String str){
         return str.chars()
                 .collect(StringBuilder::new, (b, c) -> b.insert(0, (char) c), (b1, b2) -> b1.insert(0, b2))
