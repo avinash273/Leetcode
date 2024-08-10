@@ -37,7 +37,7 @@ class Employee {
     }
 }
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         List<Employee> employees = new ArrayList<>();
         employees.add(new Employee("John", 30, 101));
