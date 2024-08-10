@@ -1,6 +1,5 @@
 package org.code.CollectionFramework;
 
-import java.awt.*;
 import java.util.*;
 
 class Employee {
@@ -115,11 +114,11 @@ public class Stream {
         });
 
         Filter filter = new Filter();
-        Collection<Employee> result = filter.filterEmployees(employeelist);
+        Collection<Employee> result1 = filter.filterEmployees(employeelist);
 
         System.out.println("After Filtering");
 
-        result.stream().forEach(employee -> {
+        result1.stream().forEach(employee -> {
             System.out.println(employee.getEmployeeId() + " " + employee.getName() + " " + employee.getTitle() + " " + employee.getSalary() + " " + employee.getUpdated_date());
         });
 

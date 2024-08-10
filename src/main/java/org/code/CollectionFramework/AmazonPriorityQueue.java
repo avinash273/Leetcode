@@ -1,5 +1,3 @@
-package org.code.CollectionFramework;
-
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.PriorityQueue;
@@ -38,8 +36,4 @@ public class AmazonPriorityQueue {
 }
 
 public static void main(String[] args) {
-
-    AmazonPriorityQueue amazonPriorityQueue = new AmazonPriorityQueue();
-
-    amazonPriorityQueue.sortString("String");
 }
