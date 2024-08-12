@@ -1,6 +1,6 @@
 package org.refresher.coupling.students;
 
-public class Student {
+public class Student implements Human {
     private int id;
     private String name;
     private int age;
@@ -52,5 +52,10 @@ public class Student {
 
     public void setSubject(Subjects subject) {
         this.subject = subject;
+    }
+
+    @Override
+    public String getAddress(String address) {
+        return "Student address: " + address + ", " + name + ", " + age + ", " + gender;
     }
 }
