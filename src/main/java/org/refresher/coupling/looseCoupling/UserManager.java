@@ -1,9 +1,9 @@
 package org.refresher.coupling.looseCoupling;
 
 public class UserManager {
-    private UserDataProvider userDataProvider;
+    private UserDataProviderInterface userDataProvider;
 
-    public UserManager(UserDataProvider userDataProvider) {
+    public UserManager(UserDataProviderInterface userDataProvider) {
         this.userDataProvider = userDataProvider;
     }
 
